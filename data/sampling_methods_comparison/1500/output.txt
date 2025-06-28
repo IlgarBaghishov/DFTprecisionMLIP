@@ -1,0 +1,1362 @@
+
+
+
+Random Subsampling results
+
+Fitting to subsampled  1500 configurations, repetition 0
+Fitting finished in 4.402917146682739 sec
+Energy subsampled RMSE is 0.0072573071161074025
+Force subsampled RMSE is 0.16368955166118027
+Energy training RMSE is 0.008778385166250565
+Force training RMSE is 0.17056181178997185
+Energy testing RMSE is 0.00905141968611355
+Force testing RMSE is 0.17349985028778991
+
+Fitting to subsampled  1500 configurations, repetition 1
+Fitting finished in 4.250815153121948 sec
+Energy subsampled RMSE is 0.007351763950706823
+Force subsampled RMSE is 0.16182435546644086
+Energy training RMSE is 0.009089680781213388
+Force training RMSE is 0.1815655889181845
+Energy testing RMSE is 0.009551435384485229
+Force testing RMSE is 0.1842386341918772
+
+Fitting to subsampled  1500 configurations, repetition 2
+Fitting finished in 4.140089273452759 sec
+Energy subsampled RMSE is 0.00781342819084019
+Force subsampled RMSE is 0.16426847042365128
+Energy training RMSE is 0.008692807877749141
+Force training RMSE is 0.18095370787707735
+Energy testing RMSE is 0.008913913338080894
+Force testing RMSE is 0.18235227034010867
+
+Fitting to subsampled  1500 configurations, repetition 3
+Fitting finished in 4.2178635597229 sec
+Energy subsampled RMSE is 0.007622701735684384
+Force subsampled RMSE is 0.16374771996710819
+Energy training RMSE is 0.009007564651182435
+Force training RMSE is 0.18112200156576322
+Energy testing RMSE is 0.009116442631143794
+Force testing RMSE is 0.18313240794120164
+
+Fitting to subsampled  1500 configurations, repetition 4
+Fitting finished in 4.067352771759033 sec
+Energy subsampled RMSE is 0.007586492728972858
+Force subsampled RMSE is 0.16664635235440253
+Energy training RMSE is 0.008765602999277457
+Force training RMSE is 0.16704947993083932
+Energy testing RMSE is 0.009253633340597154
+Force testing RMSE is 0.1683258816783215
+
+Fitting to subsampled  1500 configurations, repetition 5
+Fitting finished in 4.3108251094818115 sec
+Energy subsampled RMSE is 0.007688271993870779
+Force subsampled RMSE is 0.16624348349322982
+Energy training RMSE is 0.008421098990399703
+Force training RMSE is 0.17024127645665094
+Energy testing RMSE is 0.008758163919319521
+Force testing RMSE is 0.17229537419747395
+
+Fitting to subsampled  1500 configurations, repetition 6
+Fitting finished in 4.069643974304199 sec
+Energy subsampled RMSE is 0.007516817787562619
+Force subsampled RMSE is 0.1643926765573939
+Energy training RMSE is 0.008511679764434918
+Force training RMSE is 0.16636985803092771
+Energy testing RMSE is 0.008619209602729551
+Force testing RMSE is 0.16822728154321515
+
+Fitting to subsampled  1500 configurations, repetition 7
+Fitting finished in 4.207195997238159 sec
+Energy subsampled RMSE is 0.007718892326378581
+Force subsampled RMSE is 0.16316392657290013
+Energy training RMSE is 0.009788597745240444
+Force training RMSE is 0.19755835336145808
+Energy testing RMSE is 0.0103866869228285
+Force testing RMSE is 0.19879073092568528
+
+Fitting to subsampled  1500 configurations, repetition 8
+Fitting finished in 4.647107839584351 sec
+Energy subsampled RMSE is 0.007594171475224895
+Force subsampled RMSE is 0.1650281348327936
+Energy training RMSE is 0.010725392553788007
+Force training RMSE is 0.1809349418242545
+Energy testing RMSE is 0.013251182284326566
+Force testing RMSE is 0.18366513804573825
+
+Fitting to subsampled  1500 configurations, repetition 9
+Fitting finished in 4.412902116775513 sec
+Energy subsampled RMSE is 0.007686918628379566
+Force subsampled RMSE is 0.16410496433493788
+Energy training RMSE is 0.008734247483083647
+Force training RMSE is 0.16656451813163042
+Energy testing RMSE is 0.008728154022978496
+Force testing RMSE is 0.16813496379161627
+
+Fitting to subsampled  1500 configurations, repetition 10
+Fitting finished in 4.295346975326538 sec
+Energy subsampled RMSE is 0.007538018889859233
+Force subsampled RMSE is 0.16484796715432973
+Energy training RMSE is 0.008696192182049926
+Force training RMSE is 0.16843346157049244
+Energy testing RMSE is 0.008740637024968221
+Force testing RMSE is 0.1697009936665901
+
+Fitting to subsampled  1500 configurations, repetition 11
+Fitting finished in 5.324950218200684 sec
+Energy subsampled RMSE is 0.007543821217933021
+Force subsampled RMSE is 0.16518662417468175
+Energy training RMSE is 0.009176195022589527
+Force training RMSE is 0.1685590113189684
+Energy testing RMSE is 0.009775318137614493
+Force testing RMSE is 0.16940237189198776
+
+Fitting to subsampled  1500 configurations, repetition 12
+Fitting finished in 4.66536545753479 sec
+Energy subsampled RMSE is 0.007977164575479423
+Force subsampled RMSE is 0.16782242379586068
+Energy training RMSE is 0.008599438998853268
+Force training RMSE is 0.16766586051535295
+Energy testing RMSE is 0.009199683789174866
+Force testing RMSE is 0.16891284140799034
+
+Fitting to subsampled  1500 configurations, repetition 13
+Fitting finished in 4.644093751907349 sec
+Energy subsampled RMSE is 0.007392901763652091
+Force subsampled RMSE is 0.16359445233312492
+Energy training RMSE is 0.010260504055885529
+Force training RMSE is 0.18978798032937488
+Energy testing RMSE is 0.010290411013141465
+Force testing RMSE is 0.19042449543271212
+
+Fitting to subsampled  1500 configurations, repetition 14
+Fitting finished in 4.718842267990112 sec
+Energy subsampled RMSE is 0.007694333468794393
+Force subsampled RMSE is 0.1625047267578196
+Energy training RMSE is 0.008849377286218629
+Force training RMSE is 0.1729085795967482
+Energy testing RMSE is 0.009228471188300173
+Force testing RMSE is 0.1755605349834455
+
+Fitting to subsampled  1500 configurations, repetition 15
+Fitting finished in 4.4265923500061035 sec
+Energy subsampled RMSE is 0.007653183149718823
+Force subsampled RMSE is 0.16504666252469605
+Energy training RMSE is 0.008804217659208921
+Force training RMSE is 0.1702884465195082
+Energy testing RMSE is 0.009473294235961766
+Force testing RMSE is 0.17129475573006897
+
+Fitting to subsampled  1500 configurations, repetition 16
+Fitting finished in 5.4195475578308105 sec
+Energy subsampled RMSE is 0.007692915156296248
+Force subsampled RMSE is 0.1666856427006014
+Energy training RMSE is 0.008606415421527656
+Force training RMSE is 0.16727090910710993
+Energy testing RMSE is 0.008716880793333548
+Force testing RMSE is 0.168964241181582
+
+Fitting to subsampled  1500 configurations, repetition 17
+Fitting finished in 4.572574615478516 sec
+Energy subsampled RMSE is 0.0074659853503969975
+Force subsampled RMSE is 0.161416756572076
+Energy training RMSE is 0.009529405689720145
+Force training RMSE is 0.18777604980300588
+Energy testing RMSE is 0.009677303792781774
+Force testing RMSE is 0.1911089494044881
+
+Fitting to subsampled  1500 configurations, repetition 18
+Fitting finished in 4.668654203414917 sec
+Energy subsampled RMSE is 0.007536215652285036
+Force subsampled RMSE is 0.16626389224013063
+Energy training RMSE is 0.008466338598077505
+Force training RMSE is 0.16687106492495946
+Energy testing RMSE is 0.008599834344070722
+Force testing RMSE is 0.16824430372942578
+
+Fitting to subsampled  1500 configurations, repetition 19
+Fitting finished in 4.690408229827881 sec
+Energy subsampled RMSE is 0.007352293668519202
+Force subsampled RMSE is 0.1610393847601083
+Energy training RMSE is 0.010291246292887524
+Force training RMSE is 0.1901177015817186
+Energy testing RMSE is 0.010823188562044252
+Force testing RMSE is 0.19250397616991635
+
+Fitting to subsampled  1500 configurations, repetition 20
+Fitting finished in 5.4623894691467285 sec
+Energy subsampled RMSE is 0.007721514312201074
+Force subsampled RMSE is 0.16513540290774106
+Energy training RMSE is 0.008794152972519684
+Force training RMSE is 0.16835637647823487
+Energy testing RMSE is 0.009714288367274932
+Force testing RMSE is 0.16978987912896862
+
+Fitting to subsampled  1500 configurations, repetition 21
+Fitting finished in 4.76491117477417 sec
+Energy subsampled RMSE is 0.007680421671512664
+Force subsampled RMSE is 0.1669696793096216
+Energy training RMSE is 0.008825894282852069
+Force training RMSE is 0.16745040828159724
+Energy testing RMSE is 0.008887677521463645
+Force testing RMSE is 0.1686938422250836
+
+Fitting to subsampled  1500 configurations, repetition 22
+Fitting finished in 4.609832286834717 sec
+Energy subsampled RMSE is 0.007674512876642951
+Force subsampled RMSE is 0.16337600374849007
+Energy training RMSE is 0.009020710137194438
+Force training RMSE is 0.18465422405824078
+Energy testing RMSE is 0.009251030719622856
+Force testing RMSE is 0.18786757739356194
+
+Fitting to subsampled  1500 configurations, repetition 23
+Fitting finished in 4.584724426269531 sec
+Energy subsampled RMSE is 0.007384882748068692
+Force subsampled RMSE is 0.16392592275318602
+Energy training RMSE is 0.00907040939401837
+Force training RMSE is 0.186637569508975
+Energy testing RMSE is 0.009423698909382898
+Force testing RMSE is 0.18787747550069783
+
+Fitting to subsampled  1500 configurations, repetition 24
+Fitting finished in 4.706466913223267 sec
+Energy subsampled RMSE is 0.007528401329082373
+Force subsampled RMSE is 0.16496894989209976
+Energy training RMSE is 0.008788836940806235
+Force training RMSE is 0.17415289245094392
+Energy testing RMSE is 0.009044282256975787
+Force testing RMSE is 0.1771614020089316
+
+Fitting to subsampled  1500 configurations, repetition 25
+Fitting finished in 4.639931917190552 sec
+Energy subsampled RMSE is 0.007659853509082687
+Force subsampled RMSE is 0.16630954484559046
+Energy training RMSE is 0.009428053892925978
+Force training RMSE is 0.19218961227025932
+Energy testing RMSE is 0.009582434738159689
+Force testing RMSE is 0.19353473152852915
+
+Fitting to subsampled  1500 configurations, repetition 26
+Fitting finished in 4.657200813293457 sec
+Energy subsampled RMSE is 0.007313892456173096
+Force subsampled RMSE is 0.164644297379147
+Energy training RMSE is 0.009235517217007282
+Force training RMSE is 0.18046215139245056
+Energy testing RMSE is 0.009405923427309733
+Force testing RMSE is 0.18249719193021838
+
+Fitting to subsampled  1500 configurations, repetition 27
+Fitting finished in 4.961360454559326 sec
+Energy subsampled RMSE is 0.007455432371985238
+Force subsampled RMSE is 0.16480532710424103
+Energy training RMSE is 0.008478216289213178
+Force training RMSE is 0.16870097856188826
+Energy testing RMSE is 0.008681284930894892
+Force testing RMSE is 0.17066627413562283
+
+Fitting to subsampled  1500 configurations, repetition 28
+Fitting finished in 4.7409117221832275 sec
+Energy subsampled RMSE is 0.007311195765329371
+Force subsampled RMSE is 0.16233900614121283
+Energy training RMSE is 0.009612449914591906
+Force training RMSE is 0.19032023789160085
+Energy testing RMSE is 0.00980803535403555
+Force testing RMSE is 0.1915466731510549
+
+Fitting to subsampled  1500 configurations, repetition 29
+Fitting finished in 4.756150722503662 sec
+Energy subsampled RMSE is 0.007500917814022179
+Force subsampled RMSE is 0.16393582874789495
+Energy training RMSE is 0.008876538878340012
+Force training RMSE is 0.1689658112174004
+Energy testing RMSE is 0.009206497253580507
+Force testing RMSE is 0.17062136453088755
+
+Fitting to subsampled  1500 configurations, repetition 30
+Fitting finished in 4.6119225025177 sec
+Energy subsampled RMSE is 0.007691962972922192
+Force subsampled RMSE is 0.16259169607448873
+Energy training RMSE is 0.008628652944375727
+Force training RMSE is 0.17114979431808267
+Energy testing RMSE is 0.009144019994997074
+Force testing RMSE is 0.1730762425353931
+
+Fitting to subsampled  1500 configurations, repetition 31
+Fitting finished in 4.627005100250244 sec
+Energy subsampled RMSE is 0.007561147786690221
+Force subsampled RMSE is 0.1645721866534696
+Energy training RMSE is 0.008529449266527891
+Force training RMSE is 0.16785155292738965
+Energy testing RMSE is 0.009078548914101512
+Force testing RMSE is 0.1695050503991207
+
+Fitting to subsampled  1500 configurations, repetition 32
+Fitting finished in 4.68880558013916 sec
+Energy subsampled RMSE is 0.00746590088134303
+Force subsampled RMSE is 0.1648542419556612
+Energy training RMSE is 0.008597345828058047
+Force training RMSE is 0.16771104602480827
+Energy testing RMSE is 0.00857350772452327
+Force testing RMSE is 0.16920386105519
+
+Fitting to subsampled  1500 configurations, repetition 33
+Fitting finished in 4.566901445388794 sec
+Energy subsampled RMSE is 0.007569197692312063
+Force subsampled RMSE is 0.1640005392568531
+Energy training RMSE is 0.008768268323913288
+Force training RMSE is 0.17988154309113025
+Energy testing RMSE is 0.00902350150013003
+Force testing RMSE is 0.18199571000069611
+
+Fitting to subsampled  1500 configurations, repetition 34
+Fitting finished in 4.584340572357178 sec
+Energy subsampled RMSE is 0.007523591332515083
+Force subsampled RMSE is 0.1646912114045846
+Energy training RMSE is 0.00854784441628041
+Force training RMSE is 0.16803631787085205
+Energy testing RMSE is 0.008832859503759538
+Force testing RMSE is 0.1694837111049023
+
+Fitting to subsampled  1500 configurations, repetition 35
+Fitting finished in 4.606460094451904 sec
+Energy subsampled RMSE is 0.007547953892106282
+Force subsampled RMSE is 0.1657035777226203
+Energy training RMSE is 0.008539509802763481
+Force training RMSE is 0.16730072095191462
+Energy testing RMSE is 0.008704466841094875
+Force testing RMSE is 0.16847255889103943
+
+Fitting to subsampled  1500 configurations, repetition 36
+Fitting finished in 4.606159448623657 sec
+Energy subsampled RMSE is 0.007838960531187867
+Force subsampled RMSE is 0.16654987004312413
+Energy training RMSE is 0.008575197825159621
+Force training RMSE is 0.16669514643827973
+Energy testing RMSE is 0.008943223384501838
+Force testing RMSE is 0.16765716657414528
+
+Fitting to subsampled  1500 configurations, repetition 37
+Fitting finished in 4.604124307632446 sec
+Energy subsampled RMSE is 0.007708463471044128
+Force subsampled RMSE is 0.16601733547312192
+Energy training RMSE is 0.008741394082857665
+Force training RMSE is 0.16930911879074145
+Energy testing RMSE is 0.008883434825269286
+Force testing RMSE is 0.17079663323409508
+
+Fitting to subsampled  1500 configurations, repetition 38
+Fitting finished in 5.0299718379974365 sec
+Energy subsampled RMSE is 0.007579674841124479
+Force subsampled RMSE is 0.163906220200553
+Energy training RMSE is 0.009801558269296977
+Force training RMSE is 0.1935387515340586
+Energy testing RMSE is 0.010297677528037124
+Force testing RMSE is 0.1944263634890392
+
+Fitting to subsampled  1500 configurations, repetition 39
+Fitting finished in 4.602631330490112 sec
+Energy subsampled RMSE is 0.007646061746873767
+Force subsampled RMSE is 0.16624991456643554
+Energy training RMSE is 0.008581110435670074
+Force training RMSE is 0.1670819093224692
+Energy testing RMSE is 0.00861260267578136
+Force testing RMSE is 0.1683933007555463
+
+Fitting to subsampled  1500 configurations, repetition 40
+Fitting finished in 4.133333921432495 sec
+Energy subsampled RMSE is 0.00760246706048124
+Force subsampled RMSE is 0.1656891385574888
+Energy training RMSE is 0.008639629609986883
+Force training RMSE is 0.1670340522043909
+Energy testing RMSE is 0.009019858370208494
+Force testing RMSE is 0.16834640889468824
+
+Fitting to subsampled  1500 configurations, repetition 41
+Fitting finished in 4.581462621688843 sec
+Energy subsampled RMSE is 0.007736523578996365
+Force subsampled RMSE is 0.16484453435436652
+Energy training RMSE is 0.008577251206616598
+Force training RMSE is 0.1689004314846625
+Energy testing RMSE is 0.00907931053472988
+Force testing RMSE is 0.170537361841784
+
+Fitting to subsampled  1500 configurations, repetition 42
+Fitting finished in 4.866034030914307 sec
+Energy subsampled RMSE is 0.007399343410222825
+Force subsampled RMSE is 0.16342664375897745
+Energy training RMSE is 0.010145002707380701
+Force training RMSE is 0.2027202831818822
+Energy testing RMSE is 0.010482232640059515
+Force testing RMSE is 0.2040864748615809
+
+Fitting to subsampled  1500 configurations, repetition 43
+Fitting finished in 4.6846349239349365 sec
+Energy subsampled RMSE is 0.007433261535320472
+Force subsampled RMSE is 0.16362220581433184
+Energy training RMSE is 0.008858834179843785
+Force training RMSE is 0.18148506785498533
+Energy testing RMSE is 0.009111407281556412
+Force testing RMSE is 0.1834666793219413
+
+Fitting to subsampled  1500 configurations, repetition 44
+Fitting finished in 4.792499780654907 sec
+Energy subsampled RMSE is 0.007441700311380596
+Force subsampled RMSE is 0.1650544710229885
+Energy training RMSE is 0.008482659621108042
+Force training RMSE is 0.1669791616515992
+Energy testing RMSE is 0.00860396504170513
+Force testing RMSE is 0.16829845306737418
+
+Fitting to subsampled  1500 configurations, repetition 45
+Fitting finished in 4.726693391799927 sec
+Energy subsampled RMSE is 0.007675572453979739
+Force subsampled RMSE is 0.16505635498163396
+Energy training RMSE is 0.008500197060828663
+Force training RMSE is 0.16870677559784228
+Energy testing RMSE is 0.00885593876039547
+Force testing RMSE is 0.17076916002241446
+
+Fitting to subsampled  1500 configurations, repetition 46
+Fitting finished in 4.799001693725586 sec
+Energy subsampled RMSE is 0.007465194254582192
+Force subsampled RMSE is 0.16677915896261267
+Energy training RMSE is 0.00941743294348931
+Force training RMSE is 0.16987924539057145
+Energy testing RMSE is 0.010196214851806072
+Force testing RMSE is 0.17142252354368331
+
+Fitting to subsampled  1500 configurations, repetition 47
+Fitting finished in 5.1651434898376465 sec
+Energy subsampled RMSE is 0.007842083241128705
+Force subsampled RMSE is 0.1647900765396432
+Energy training RMSE is 0.008573899399171579
+Force training RMSE is 0.17008499596509805
+Energy testing RMSE is 0.008986484702549502
+Force testing RMSE is 0.17162513730854553
+
+Fitting to subsampled  1500 configurations, repetition 48
+Fitting finished in 4.965348482131958 sec
+Energy subsampled RMSE is 0.007675621449130751
+Force subsampled RMSE is 0.1639268884745796
+Energy training RMSE is 0.008785989914240622
+Force training RMSE is 0.16935770038259304
+Energy testing RMSE is 0.009372408995662128
+Force testing RMSE is 0.17133981299509832
+
+Fitting to subsampled  1500 configurations, repetition 49
+Fitting finished in 4.917234897613525 sec
+Energy subsampled RMSE is 0.007446904836741458
+Force subsampled RMSE is 0.16357282139907714
+Energy training RMSE is 0.00873661954383321
+Force training RMSE is 0.16836453455685263
+Energy testing RMSE is 0.008730804912709115
+Force testing RMSE is 0.16920569467852883
+
+
+
+Leverage Subsampling results
+
+Fitting to subsampled  1500 configurations, repetition 0
+Fitting finished in 5.147479772567749 sec
+Energy subsampled RMSE is 0.008662661200108729
+Force subsampled RMSE is 0.18065695885501404
+Energy training RMSE is 0.008458280695913055
+Force training RMSE is 0.16956749233899612
+Energy testing RMSE is 0.008577946552932208
+Force testing RMSE is 0.1702500925566957
+
+Fitting to subsampled  1500 configurations, repetition 1
+Fitting finished in 4.66049861907959 sec
+Energy subsampled RMSE is 0.008790887933909086
+Force subsampled RMSE is 0.18054197395553798
+Energy training RMSE is 0.008475688295115536
+Force training RMSE is 0.16985658244968918
+Energy testing RMSE is 0.008563989311625659
+Force testing RMSE is 0.17056866657805844
+
+Fitting to subsampled  1500 configurations, repetition 2
+Fitting finished in 4.79606556892395 sec
+Energy subsampled RMSE is 0.008774537061965036
+Force subsampled RMSE is 0.1804093883912572
+Energy training RMSE is 0.008490775020109354
+Force training RMSE is 0.16989129658409324
+Energy testing RMSE is 0.008643958729421272
+Force testing RMSE is 0.17069715594421633
+
+Fitting to subsampled  1500 configurations, repetition 3
+Fitting finished in 4.742165565490723 sec
+Energy subsampled RMSE is 0.00877859675967102
+Force subsampled RMSE is 0.1793528095723885
+Energy training RMSE is 0.008492922411489294
+Force training RMSE is 0.16942547336241037
+Energy testing RMSE is 0.00862207414591973
+Force testing RMSE is 0.1702087260525696
+
+Fitting to subsampled  1500 configurations, repetition 4
+Fitting finished in 5.001784324645996 sec
+Energy subsampled RMSE is 0.008593896533838788
+Force subsampled RMSE is 0.18011371229755813
+Energy training RMSE is 0.00850235621108295
+Force training RMSE is 0.16981319485741703
+Energy testing RMSE is 0.008643485699648743
+Force testing RMSE is 0.17055381355970298
+
+Fitting to subsampled  1500 configurations, repetition 5
+Fitting finished in 4.640276908874512 sec
+Energy subsampled RMSE is 0.008991024823807264
+Force subsampled RMSE is 0.18204528071133386
+Energy training RMSE is 0.00839370372557524
+Force training RMSE is 0.17040296022584425
+Energy testing RMSE is 0.008609907856606501
+Force testing RMSE is 0.1713721733717913
+
+Fitting to subsampled  1500 configurations, repetition 6
+Fitting finished in 4.797739267349243 sec
+Energy subsampled RMSE is 0.008974708995189961
+Force subsampled RMSE is 0.1812259252440134
+Energy training RMSE is 0.008570027097180688
+Force training RMSE is 0.17055423785993007
+Energy testing RMSE is 0.008670817755992998
+Force testing RMSE is 0.17125664474637528
+
+Fitting to subsampled  1500 configurations, repetition 7
+Fitting finished in 5.296490907669067 sec
+Energy subsampled RMSE is 0.009036406911975518
+Force subsampled RMSE is 0.17992910037258458
+Energy training RMSE is 0.008353627650293776
+Force training RMSE is 0.17005072784527353
+Energy testing RMSE is 0.008461922393837737
+Force testing RMSE is 0.17085179626713135
+
+Fitting to subsampled  1500 configurations, repetition 8
+Fitting finished in 4.7508509159088135 sec
+Energy subsampled RMSE is 0.008611148638422801
+Force subsampled RMSE is 0.17927502912400733
+Energy training RMSE is 0.008510524687304734
+Force training RMSE is 0.16969917212043611
+Energy testing RMSE is 0.008609228936883323
+Force testing RMSE is 0.17042020569406913
+
+Fitting to subsampled  1500 configurations, repetition 9
+Fitting finished in 4.6152379512786865 sec
+Energy subsampled RMSE is 0.009078611378975839
+Force subsampled RMSE is 0.18206725708708887
+Energy training RMSE is 0.008494344957938446
+Force training RMSE is 0.17035878364457058
+Energy testing RMSE is 0.0086461442318572
+Force testing RMSE is 0.17099023839188762
+
+Fitting to subsampled  1500 configurations, repetition 10
+Fitting finished in 4.573720693588257 sec
+Energy subsampled RMSE is 0.008663682531976252
+Force subsampled RMSE is 0.18242731898530573
+Energy training RMSE is 0.008528040434541195
+Force training RMSE is 0.1702476446849539
+Energy testing RMSE is 0.008672894024178287
+Force testing RMSE is 0.1710301914759859
+
+Fitting to subsampled  1500 configurations, repetition 11
+Fitting finished in 4.711490631103516 sec
+Energy subsampled RMSE is 0.008576617765818598
+Force subsampled RMSE is 0.1794240397357809
+Energy training RMSE is 0.008545737458426567
+Force training RMSE is 0.16968674521951616
+Energy testing RMSE is 0.00866463143973331
+Force testing RMSE is 0.17044408046885087
+
+Fitting to subsampled  1500 configurations, repetition 12
+Fitting finished in 4.890833616256714 sec
+Energy subsampled RMSE is 0.00887905154854322
+Force subsampled RMSE is 0.18130935545333737
+Energy training RMSE is 0.00841368316002878
+Force training RMSE is 0.17020785374139025
+Energy testing RMSE is 0.008582174118157558
+Force testing RMSE is 0.17092234491822333
+
+Fitting to subsampled  1500 configurations, repetition 13
+Fitting finished in 4.3793768882751465 sec
+Energy subsampled RMSE is 0.008755348868937566
+Force subsampled RMSE is 0.18172851232321066
+Energy training RMSE is 0.00850496277641292
+Force training RMSE is 0.17029452504608675
+Energy testing RMSE is 0.00867928817868024
+Force testing RMSE is 0.17106006690930348
+
+Fitting to subsampled  1500 configurations, repetition 14
+Fitting finished in 4.833872556686401 sec
+Energy subsampled RMSE is 0.008770871454535482
+Force subsampled RMSE is 0.18099251690162643
+Energy training RMSE is 0.008432199069553793
+Force training RMSE is 0.17073987024444146
+Energy testing RMSE is 0.008603071657258717
+Force testing RMSE is 0.17161258093347528
+
+Fitting to subsampled  1500 configurations, repetition 15
+Fitting finished in 4.773784875869751 sec
+Energy subsampled RMSE is 0.009085524505989302
+Force subsampled RMSE is 0.18230326445532358
+Energy training RMSE is 0.008472937429580997
+Force training RMSE is 0.17037731663488548
+Energy testing RMSE is 0.00868638280813523
+Force testing RMSE is 0.17124384770552403
+
+Fitting to subsampled  1500 configurations, repetition 16
+Fitting finished in 4.5170323848724365 sec
+Energy subsampled RMSE is 0.008840328581143721
+Force subsampled RMSE is 0.18116741578778034
+Energy training RMSE is 0.008516521454713473
+Force training RMSE is 0.16962850458787124
+Energy testing RMSE is 0.00864740996308681
+Force testing RMSE is 0.1704529461062185
+
+Fitting to subsampled  1500 configurations, repetition 17
+Fitting finished in 4.651312828063965 sec
+Energy subsampled RMSE is 0.0087332756721705
+Force subsampled RMSE is 0.18214671823826148
+Energy training RMSE is 0.008450207212676902
+Force training RMSE is 0.170142022916983
+Energy testing RMSE is 0.00859458957573621
+Force testing RMSE is 0.17096791452496818
+
+Fitting to subsampled  1500 configurations, repetition 18
+Fitting finished in 4.395924091339111 sec
+Energy subsampled RMSE is 0.008677226310628876
+Force subsampled RMSE is 0.18133029451939076
+Energy training RMSE is 0.008465905864372073
+Force training RMSE is 0.1699856354130084
+Energy testing RMSE is 0.008615918905360566
+Force testing RMSE is 0.17074800990603756
+
+Fitting to subsampled  1500 configurations, repetition 19
+Fitting finished in 4.480939865112305 sec
+Energy subsampled RMSE is 0.009033445002429837
+Force subsampled RMSE is 0.18139609928948192
+Energy training RMSE is 0.008400618421962476
+Force training RMSE is 0.1706356383438842
+Energy testing RMSE is 0.008569474679772674
+Force testing RMSE is 0.17148294549415857
+
+Fitting to subsampled  1500 configurations, repetition 20
+Fitting finished in 4.943801403045654 sec
+Energy subsampled RMSE is 0.008966729843364865
+Force subsampled RMSE is 0.1835339841088094
+Energy training RMSE is 0.008338791178567328
+Force training RMSE is 0.1721284224476867
+Energy testing RMSE is 0.008563546857250595
+Force testing RMSE is 0.1730019932754591
+
+Fitting to subsampled  1500 configurations, repetition 21
+Fitting finished in 4.622980117797852 sec
+Energy subsampled RMSE is 0.009110676099859931
+Force subsampled RMSE is 0.18205477918584392
+Energy training RMSE is 0.008389162048862706
+Force training RMSE is 0.17063030371837185
+Energy testing RMSE is 0.008517328308501309
+Force testing RMSE is 0.17142063199546187
+
+Fitting to subsampled  1500 configurations, repetition 22
+Fitting finished in 5.5176496505737305 sec
+Energy subsampled RMSE is 0.00904482341481431
+Force subsampled RMSE is 0.18032283437349772
+Energy training RMSE is 0.008337047330702497
+Force training RMSE is 0.17065119059341016
+Energy testing RMSE is 0.00850556861132721
+Force testing RMSE is 0.17142498129690656
+
+Fitting to subsampled  1500 configurations, repetition 23
+Fitting finished in 4.7285192012786865 sec
+Energy subsampled RMSE is 0.008861227573949455
+Force subsampled RMSE is 0.18265590678667662
+Energy training RMSE is 0.008434582061237296
+Force training RMSE is 0.17071709651884112
+Energy testing RMSE is 0.008553847016135823
+Force testing RMSE is 0.1712902974727678
+
+Fitting to subsampled  1500 configurations, repetition 24
+Fitting finished in 4.577219724655151 sec
+Energy subsampled RMSE is 0.008657267039595457
+Force subsampled RMSE is 0.17997303343149587
+Energy training RMSE is 0.008450745344876533
+Force training RMSE is 0.16997533922787908
+Energy testing RMSE is 0.008586105093146886
+Force testing RMSE is 0.17063619638398958
+
+Fitting to subsampled  1500 configurations, repetition 25
+Fitting finished in 4.561058282852173 sec
+Energy subsampled RMSE is 0.009105298651559417
+Force subsampled RMSE is 0.18346505354192455
+Energy training RMSE is 0.0084782357860049
+Force training RMSE is 0.1707035284063189
+Energy testing RMSE is 0.008652978237377344
+Force testing RMSE is 0.1715167221516498
+
+Fitting to subsampled  1500 configurations, repetition 26
+Fitting finished in 4.687828540802002 sec
+Energy subsampled RMSE is 0.00884417987075522
+Force subsampled RMSE is 0.1800316789656588
+Energy training RMSE is 0.008564722359482604
+Force training RMSE is 0.16918768609732376
+Energy testing RMSE is 0.008713224040482285
+Force testing RMSE is 0.16992580785394956
+
+Fitting to subsampled  1500 configurations, repetition 27
+Fitting finished in 4.669361591339111 sec
+Energy subsampled RMSE is 0.009009770223518088
+Force subsampled RMSE is 0.18316127080826086
+Energy training RMSE is 0.008524783185593458
+Force training RMSE is 0.17040573708051396
+Energy testing RMSE is 0.008677868982420898
+Force testing RMSE is 0.17109030918839388
+
+Fitting to subsampled  1500 configurations, repetition 28
+Fitting finished in 5.085511207580566 sec
+Energy subsampled RMSE is 0.008908805125272035
+Force subsampled RMSE is 0.18155726732374716
+Energy training RMSE is 0.00855468327799266
+Force training RMSE is 0.16975251819345352
+Energy testing RMSE is 0.008666480362359513
+Force testing RMSE is 0.17038129008588634
+
+Fitting to subsampled  1500 configurations, repetition 29
+Fitting finished in 4.754292011260986 sec
+Energy subsampled RMSE is 0.008906560810468261
+Force subsampled RMSE is 0.18204782946825923
+Energy training RMSE is 0.008359412837426477
+Force training RMSE is 0.1709548752026612
+Energy testing RMSE is 0.00851722873974755
+Force testing RMSE is 0.17171380660226285
+
+Fitting to subsampled  1500 configurations, repetition 30
+Fitting finished in 4.659507513046265 sec
+Energy subsampled RMSE is 0.009039809910724658
+Force subsampled RMSE is 0.1807236611633251
+Energy training RMSE is 0.00841405806128765
+Force training RMSE is 0.17076685821669438
+Energy testing RMSE is 0.008631753049622094
+Force testing RMSE is 0.17145103631946584
+
+Fitting to subsampled  1500 configurations, repetition 31
+Fitting finished in 4.795646667480469 sec
+Energy subsampled RMSE is 0.009049975275849723
+Force subsampled RMSE is 0.18165807026645583
+Energy training RMSE is 0.008489379277097482
+Force training RMSE is 0.17035302452710396
+Energy testing RMSE is 0.008634376068956109
+Force testing RMSE is 0.17115161851576094
+
+Fitting to subsampled  1500 configurations, repetition 32
+Fitting finished in 4.825753688812256 sec
+Energy subsampled RMSE is 0.008744626957888713
+Force subsampled RMSE is 0.1797347648266527
+Energy training RMSE is 0.008440990212385417
+Force training RMSE is 0.17001270851161565
+Energy testing RMSE is 0.00859484447602802
+Force testing RMSE is 0.17075402336036222
+
+Fitting to subsampled  1500 configurations, repetition 33
+Fitting finished in 4.6372363567352295 sec
+Energy subsampled RMSE is 0.008683762795047794
+Force subsampled RMSE is 0.18010085841653184
+Energy training RMSE is 0.008388034596334915
+Force training RMSE is 0.1703008019945757
+Energy testing RMSE is 0.008585757993900203
+Force testing RMSE is 0.17110737057472003
+
+Fitting to subsampled  1500 configurations, repetition 34
+Fitting finished in 5.397350072860718 sec
+Energy subsampled RMSE is 0.008881757157277785
+Force subsampled RMSE is 0.18143226605149076
+Energy training RMSE is 0.008464936427991659
+Force training RMSE is 0.1701276126792362
+Energy testing RMSE is 0.008617156027361383
+Force testing RMSE is 0.17083546341238023
+
+Fitting to subsampled  1500 configurations, repetition 35
+Fitting finished in 5.414050340652466 sec
+Energy subsampled RMSE is 0.008663020075373264
+Force subsampled RMSE is 0.18122614069616227
+Energy training RMSE is 0.008505848901501184
+Force training RMSE is 0.17060613403511876
+Energy testing RMSE is 0.008645933264378246
+Force testing RMSE is 0.17133759805664617
+
+Fitting to subsampled  1500 configurations, repetition 36
+Fitting finished in 4.658666610717773 sec
+Energy subsampled RMSE is 0.008740512681222164
+Force subsampled RMSE is 0.17932835381686218
+Energy training RMSE is 0.008437448733179113
+Force training RMSE is 0.17053062376271247
+Energy testing RMSE is 0.008597006590289447
+Force testing RMSE is 0.17131785264892765
+
+Fitting to subsampled  1500 configurations, repetition 37
+Fitting finished in 5.5408759117126465 sec
+Energy subsampled RMSE is 0.008999417031523677
+Force subsampled RMSE is 0.1811048717269716
+Energy training RMSE is 0.008575872834674531
+Force training RMSE is 0.1696156023044459
+Energy testing RMSE is 0.008733423444268733
+Force testing RMSE is 0.1703761182952818
+
+Fitting to subsampled  1500 configurations, repetition 38
+Fitting finished in 4.845168828964233 sec
+Energy subsampled RMSE is 0.008750223853012532
+Force subsampled RMSE is 0.18131379299851474
+Energy training RMSE is 0.008459383946595232
+Force training RMSE is 0.17020433239627905
+Energy testing RMSE is 0.008569131269013356
+Force testing RMSE is 0.17076432161803998
+
+Fitting to subsampled  1500 configurations, repetition 39
+Fitting finished in 5.105601072311401 sec
+Energy subsampled RMSE is 0.008794369488915012
+Force subsampled RMSE is 0.18057966860914126
+Energy training RMSE is 0.008451926193485395
+Force training RMSE is 0.16928827760329265
+Energy testing RMSE is 0.008572048018864359
+Force testing RMSE is 0.17002617549630245
+
+Fitting to subsampled  1500 configurations, repetition 40
+Fitting finished in 4.804336309432983 sec
+Energy subsampled RMSE is 0.008925174481589741
+Force subsampled RMSE is 0.18114014687239446
+Energy training RMSE is 0.008419908658502336
+Force training RMSE is 0.17011479741062388
+Energy testing RMSE is 0.008553474432576797
+Force testing RMSE is 0.17091115242485586
+
+Fitting to subsampled  1500 configurations, repetition 41
+Fitting finished in 4.960406303405762 sec
+Energy subsampled RMSE is 0.008909469835483358
+Force subsampled RMSE is 0.18104081455013932
+Energy training RMSE is 0.008415799142175379
+Force training RMSE is 0.17039097557468422
+Energy testing RMSE is 0.008571084266372717
+Force testing RMSE is 0.17115711706677256
+
+Fitting to subsampled  1500 configurations, repetition 42
+Fitting finished in 5.77695894241333 sec
+Energy subsampled RMSE is 0.008803252402453696
+Force subsampled RMSE is 0.18183290765665092
+Energy training RMSE is 0.008451427057257611
+Force training RMSE is 0.17006689261974517
+Energy testing RMSE is 0.008663609286310355
+Force testing RMSE is 0.1709192283266507
+
+Fitting to subsampled  1500 configurations, repetition 43
+Fitting finished in 4.656114816665649 sec
+Energy subsampled RMSE is 0.009106963702421023
+Force subsampled RMSE is 0.18196428837673015
+Energy training RMSE is 0.008435394600400914
+Force training RMSE is 0.1710846348587244
+Energy testing RMSE is 0.008549010665991584
+Force testing RMSE is 0.1717178640529132
+
+Fitting to subsampled  1500 configurations, repetition 44
+Fitting finished in 4.848764896392822 sec
+Energy subsampled RMSE is 0.008905939726224615
+Force subsampled RMSE is 0.18112420473772792
+Energy training RMSE is 0.00847278117979382
+Force training RMSE is 0.1701147062350898
+Energy testing RMSE is 0.008614009223060663
+Force testing RMSE is 0.17083659879312452
+
+Fitting to subsampled  1500 configurations, repetition 45
+Fitting finished in 5.584993362426758 sec
+Energy subsampled RMSE is 0.008929586372533653
+Force subsampled RMSE is 0.18257194515762726
+Energy training RMSE is 0.008468750794723106
+Force training RMSE is 0.17003374428124854
+Energy testing RMSE is 0.008634079566601645
+Force testing RMSE is 0.17069877039873882
+
+Fitting to subsampled  1500 configurations, repetition 46
+Fitting finished in 5.580875396728516 sec
+Energy subsampled RMSE is 0.008807991453396159
+Force subsampled RMSE is 0.180620114720245
+Energy training RMSE is 0.00841593907400628
+Force training RMSE is 0.1695252778979897
+Energy testing RMSE is 0.008545038146786983
+Force testing RMSE is 0.1701720965232392
+
+Fitting to subsampled  1500 configurations, repetition 47
+Fitting finished in 4.727734565734863 sec
+Energy subsampled RMSE is 0.009087725307076017
+Force subsampled RMSE is 0.18120499421442968
+Energy training RMSE is 0.008330501248201732
+Force training RMSE is 0.17045113425277136
+Energy testing RMSE is 0.00849361851398152
+Force testing RMSE is 0.17126871750969608
+
+Fitting to subsampled  1500 configurations, repetition 48
+Fitting finished in 4.800704479217529 sec
+Energy subsampled RMSE is 0.00895471526230548
+Force subsampled RMSE is 0.18200773678321594
+Energy training RMSE is 0.008539765068549155
+Force training RMSE is 0.17000419884310763
+Energy testing RMSE is 0.008680729758902979
+Force testing RMSE is 0.17073420773116849
+
+Fitting to subsampled  1500 configurations, repetition 49
+Fitting finished in 4.646225214004517 sec
+Energy subsampled RMSE is 0.008865840868848729
+Force subsampled RMSE is 0.18024796115264552
+Energy training RMSE is 0.008333884445722806
+Force training RMSE is 0.1712876589050036
+Energy testing RMSE is 0.008455617351295262
+Force testing RMSE is 0.17187588261830483
+
+
+
+Block Leverage Subsampling results
+
+Fitting to subsampled  1500 configurations, repetition 0
+Fitting finished in 4.878084182739258 sec
+Energy subsampled RMSE is 0.008528863561407782
+Force subsampled RMSE is 0.1805521045155218
+Energy training RMSE is 0.008644399202381373
+Force training RMSE is 0.16798171195951703
+Energy testing RMSE is 0.008812653021035361
+Force testing RMSE is 0.16879794775784243
+
+Fitting to subsampled  1500 configurations, repetition 1
+Fitting finished in 5.080926418304443 sec
+Energy subsampled RMSE is 0.008585270807947624
+Force subsampled RMSE is 0.1785672344472719
+Energy training RMSE is 0.00875609451758152
+Force training RMSE is 0.16676343333110868
+Energy testing RMSE is 0.008811589312924114
+Force testing RMSE is 0.16756086437001175
+
+Fitting to subsampled  1500 configurations, repetition 2
+Fitting finished in 4.921660423278809 sec
+Energy subsampled RMSE is 0.008480115188199867
+Force subsampled RMSE is 0.1782410094831067
+Energy training RMSE is 0.008742868002511296
+Force training RMSE is 0.16658468894064962
+Energy testing RMSE is 0.008826464300114543
+Force testing RMSE is 0.1672611371609981
+
+Fitting to subsampled  1500 configurations, repetition 3
+Fitting finished in 5.1617255210876465 sec
+Energy subsampled RMSE is 0.008432913137124529
+Force subsampled RMSE is 0.1796271955021879
+Energy training RMSE is 0.008703549378140739
+Force training RMSE is 0.1674005899689572
+Energy testing RMSE is 0.008834471601482109
+Force testing RMSE is 0.16813208379590364
+
+Fitting to subsampled  1500 configurations, repetition 4
+Fitting finished in 4.858844518661499 sec
+Energy subsampled RMSE is 0.008661556679819157
+Force subsampled RMSE is 0.17867760595896148
+Energy training RMSE is 0.008779731045731331
+Force training RMSE is 0.167594742667983
+Energy testing RMSE is 0.00885683202651793
+Force testing RMSE is 0.16830891292516992
+
+Fitting to subsampled  1500 configurations, repetition 5
+Fitting finished in 5.223361253738403 sec
+Energy subsampled RMSE is 0.008550485593870123
+Force subsampled RMSE is 0.1787444653066444
+Energy training RMSE is 0.008695284615719003
+Force training RMSE is 0.16715187488600453
+Energy testing RMSE is 0.008795260048940056
+Force testing RMSE is 0.16795995227423513
+
+Fitting to subsampled  1500 configurations, repetition 6
+Fitting finished in 4.998180389404297 sec
+Energy subsampled RMSE is 0.008275016629055401
+Force subsampled RMSE is 0.17937639242307327
+Energy training RMSE is 0.008728528806893097
+Force training RMSE is 0.16702738992498414
+Energy testing RMSE is 0.008814059441807636
+Force testing RMSE is 0.16766083600468448
+
+Fitting to subsampled  1500 configurations, repetition 7
+Fitting finished in 5.552148342132568 sec
+Energy subsampled RMSE is 0.008260394339064291
+Force subsampled RMSE is 0.17950911196072006
+Energy training RMSE is 0.008886664503077579
+Force training RMSE is 0.1671713344324437
+Energy testing RMSE is 0.008997608507446408
+Force testing RMSE is 0.168006741321472
+
+Fitting to subsampled  1500 configurations, repetition 8
+Fitting finished in 4.80879807472229 sec
+Energy subsampled RMSE is 0.008446535318147597
+Force subsampled RMSE is 0.1791318036227103
+Energy training RMSE is 0.008747199965006124
+Force training RMSE is 0.1670581492459333
+Energy testing RMSE is 0.008911982513231744
+Force testing RMSE is 0.16797511142711788
+
+Fitting to subsampled  1500 configurations, repetition 9
+Fitting finished in 4.88802433013916 sec
+Energy subsampled RMSE is 0.008569441140262495
+Force subsampled RMSE is 0.18087111319469526
+Energy training RMSE is 0.008730339926206273
+Force training RMSE is 0.1673640253900571
+Energy testing RMSE is 0.008864069959412909
+Force testing RMSE is 0.16805723076771928
+
+Fitting to subsampled  1500 configurations, repetition 10
+Fitting finished in 5.219906568527222 sec
+Energy subsampled RMSE is 0.008715177061968362
+Force subsampled RMSE is 0.18002585467347842
+Energy training RMSE is 0.008839948839059752
+Force training RMSE is 0.16700522622158662
+Energy testing RMSE is 0.008983350582957359
+Force testing RMSE is 0.16783362152688672
+
+Fitting to subsampled  1500 configurations, repetition 11
+Fitting finished in 4.878978967666626 sec
+Energy subsampled RMSE is 0.008562702640756687
+Force subsampled RMSE is 0.1801313257213649
+Energy training RMSE is 0.008699820704904337
+Force training RMSE is 0.1672872996451131
+Energy testing RMSE is 0.008759258146823799
+Force testing RMSE is 0.16797838011573124
+
+Fitting to subsampled  1500 configurations, repetition 12
+Fitting finished in 4.7841105461120605 sec
+Energy subsampled RMSE is 0.008211920565654215
+Force subsampled RMSE is 0.17880000514975278
+Energy training RMSE is 0.008876809096344359
+Force training RMSE is 0.16707050258573922
+Energy testing RMSE is 0.009032606424215769
+Force testing RMSE is 0.1678006357034766
+
+Fitting to subsampled  1500 configurations, repetition 13
+Fitting finished in 4.9479498863220215 sec
+Energy subsampled RMSE is 0.008545684101309873
+Force subsampled RMSE is 0.1816402181097162
+Energy training RMSE is 0.00878084522058505
+Force training RMSE is 0.16757171177768546
+Energy testing RMSE is 0.008858723060359217
+Force testing RMSE is 0.16834785304842567
+
+Fitting to subsampled  1500 configurations, repetition 14
+Fitting finished in 4.847334623336792 sec
+Energy subsampled RMSE is 0.00839111024947796
+Force subsampled RMSE is 0.1778628918538278
+Energy training RMSE is 0.008609349403675673
+Force training RMSE is 0.16743399736565456
+Energy testing RMSE is 0.008680290307460061
+Force testing RMSE is 0.16811115482730468
+
+Fitting to subsampled  1500 configurations, repetition 15
+Fitting finished in 4.915562868118286 sec
+Energy subsampled RMSE is 0.008606863449856983
+Force subsampled RMSE is 0.17995311044741857
+Energy training RMSE is 0.008648804126238191
+Force training RMSE is 0.16799142617620264
+Energy testing RMSE is 0.008852529527863877
+Force testing RMSE is 0.16894625706630634
+
+Fitting to subsampled  1500 configurations, repetition 16
+Fitting finished in 4.801222085952759 sec
+Energy subsampled RMSE is 0.008318654835356609
+Force subsampled RMSE is 0.17917040768927325
+Energy training RMSE is 0.008740106182204744
+Force training RMSE is 0.16730229803159638
+Energy testing RMSE is 0.008853584580600912
+Force testing RMSE is 0.16815230293873987
+
+Fitting to subsampled  1500 configurations, repetition 17
+Fitting finished in 5.542665004730225 sec
+Energy subsampled RMSE is 0.008518234934991027
+Force subsampled RMSE is 0.1790328123936269
+Energy training RMSE is 0.008695860450539317
+Force training RMSE is 0.1675116465295923
+Energy testing RMSE is 0.008879194368950122
+Force testing RMSE is 0.16833209436098256
+
+Fitting to subsampled  1500 configurations, repetition 18
+Fitting finished in 4.713145971298218 sec
+Energy subsampled RMSE is 0.008619762216550699
+Force subsampled RMSE is 0.17888315373695138
+Energy training RMSE is 0.008976568471056164
+Force training RMSE is 0.1664507466432546
+Energy testing RMSE is 0.009065398617330769
+Force testing RMSE is 0.16720054555784178
+
+Fitting to subsampled  1500 configurations, repetition 19
+Fitting finished in 4.65683388710022 sec
+Energy subsampled RMSE is 0.00833217096231256
+Force subsampled RMSE is 0.1791301408779055
+Energy training RMSE is 0.008758584839687725
+Force training RMSE is 0.16779108023867897
+Energy testing RMSE is 0.008784076940785963
+Force testing RMSE is 0.16852942230211657
+
+Fitting to subsampled  1500 configurations, repetition 20
+Fitting finished in 4.911765098571777 sec
+Energy subsampled RMSE is 0.008223549695053317
+Force subsampled RMSE is 0.17755658222131931
+Energy training RMSE is 0.00877918732971696
+Force training RMSE is 0.1667861072956493
+Energy testing RMSE is 0.008832812025658193
+Force testing RMSE is 0.1676082232361648
+
+Fitting to subsampled  1500 configurations, repetition 21
+Fitting finished in 4.866697549819946 sec
+Energy subsampled RMSE is 0.0085199298022257
+Force subsampled RMSE is 0.17903935560046122
+Energy training RMSE is 0.008803774551605248
+Force training RMSE is 0.16699718146691225
+Energy testing RMSE is 0.008913570608015295
+Force testing RMSE is 0.1677924550997633
+
+Fitting to subsampled  1500 configurations, repetition 22
+Fitting finished in 5.160391807556152 sec
+Energy subsampled RMSE is 0.008611982060509086
+Force subsampled RMSE is 0.17952993336422474
+Energy training RMSE is 0.008791233985320572
+Force training RMSE is 0.16729286020593492
+Energy testing RMSE is 0.008925796329365175
+Force testing RMSE is 0.167922222071367
+
+Fitting to subsampled  1500 configurations, repetition 23
+Fitting finished in 4.662212610244751 sec
+Energy subsampled RMSE is 0.008554316650278495
+Force subsampled RMSE is 0.1792416953014861
+Energy training RMSE is 0.008701964706439495
+Force training RMSE is 0.16793269452530576
+Energy testing RMSE is 0.00885655278198742
+Force testing RMSE is 0.16879387647545893
+
+Fitting to subsampled  1500 configurations, repetition 24
+Fitting finished in 4.813101530075073 sec
+Energy subsampled RMSE is 0.008511742521234144
+Force subsampled RMSE is 0.18169764803001567
+Energy training RMSE is 0.00869355267619377
+Force training RMSE is 0.16863167632409068
+Energy testing RMSE is 0.008800344154559502
+Force testing RMSE is 0.16946041994986952
+
+Fitting to subsampled  1500 configurations, repetition 25
+Fitting finished in 5.657311916351318 sec
+Energy subsampled RMSE is 0.008650874299485531
+Force subsampled RMSE is 0.1795744057106908
+Energy training RMSE is 0.008693867740720208
+Force training RMSE is 0.16684172086397414
+Energy testing RMSE is 0.008782970447568534
+Force testing RMSE is 0.16772060688503937
+
+Fitting to subsampled  1500 configurations, repetition 26
+Fitting finished in 5.375136137008667 sec
+Energy subsampled RMSE is 0.008321718027108972
+Force subsampled RMSE is 0.17894786301951052
+Energy training RMSE is 0.008768060524646267
+Force training RMSE is 0.16703551354949736
+Energy testing RMSE is 0.008942082571180425
+Force testing RMSE is 0.16788752914006036
+
+Fitting to subsampled  1500 configurations, repetition 27
+Fitting finished in 5.244020700454712 sec
+Energy subsampled RMSE is 0.008761801723056377
+Force subsampled RMSE is 0.18009815971517174
+Energy training RMSE is 0.008645609132678943
+Force training RMSE is 0.16759910479022763
+Energy testing RMSE is 0.008813226024229402
+Force testing RMSE is 0.16842987321308994
+
+Fitting to subsampled  1500 configurations, repetition 28
+Fitting finished in 5.009282112121582 sec
+Energy subsampled RMSE is 0.008617536126378568
+Force subsampled RMSE is 0.17939899019952368
+Energy training RMSE is 0.008686408327253406
+Force training RMSE is 0.16751104930270946
+Energy testing RMSE is 0.008788920173639666
+Force testing RMSE is 0.16825461529399618
+
+Fitting to subsampled  1500 configurations, repetition 29
+Fitting finished in 5.110097885131836 sec
+Energy subsampled RMSE is 0.008536189727156763
+Force subsampled RMSE is 0.17843831245344777
+Energy training RMSE is 0.008608123178198231
+Force training RMSE is 0.16762724974072488
+Energy testing RMSE is 0.00866073048845619
+Force testing RMSE is 0.1683465392162025
+
+Fitting to subsampled  1500 configurations, repetition 30
+Fitting finished in 5.218634843826294 sec
+Energy subsampled RMSE is 0.008518845242882708
+Force subsampled RMSE is 0.17926567566135182
+Energy training RMSE is 0.0087733010271564
+Force training RMSE is 0.16752253477114695
+Energy testing RMSE is 0.008884343152773538
+Force testing RMSE is 0.1683428171904359
+
+Fitting to subsampled  1500 configurations, repetition 31
+Fitting finished in 5.027519702911377 sec
+Energy subsampled RMSE is 0.008241697668008596
+Force subsampled RMSE is 0.17935483171944644
+Energy training RMSE is 0.00873343789103315
+Force training RMSE is 0.16711237635204576
+Energy testing RMSE is 0.008838734966075727
+Force testing RMSE is 0.16785829304541328
+
+Fitting to subsampled  1500 configurations, repetition 32
+Fitting finished in 5.188166856765747 sec
+Energy subsampled RMSE is 0.008411266817183252
+Force subsampled RMSE is 0.17805142632044207
+Energy training RMSE is 0.008837217533344205
+Force training RMSE is 0.16731149855155827
+Energy testing RMSE is 0.008984379008952091
+Force testing RMSE is 0.1680495084783738
+
+Fitting to subsampled  1500 configurations, repetition 33
+Fitting finished in 4.964555025100708 sec
+Energy subsampled RMSE is 0.008314135763507676
+Force subsampled RMSE is 0.17713743929912118
+Energy training RMSE is 0.008791949401873589
+Force training RMSE is 0.1662713005307463
+Energy testing RMSE is 0.008883957170021313
+Force testing RMSE is 0.1670461362931846
+
+Fitting to subsampled  1500 configurations, repetition 34
+Fitting finished in 5.049047946929932 sec
+Energy subsampled RMSE is 0.008244323735182382
+Force subsampled RMSE is 0.17943228079179838
+Energy training RMSE is 0.008946050181171098
+Force training RMSE is 0.16700712468414597
+Energy testing RMSE is 0.009132568277378256
+Force testing RMSE is 0.1676754235420062
+
+Fitting to subsampled  1500 configurations, repetition 35
+Fitting finished in 4.931602239608765 sec
+Energy subsampled RMSE is 0.008599821313414318
+Force subsampled RMSE is 0.17973473887536562
+Energy training RMSE is 0.008711518660624794
+Force training RMSE is 0.16731293073926437
+Energy testing RMSE is 0.00884631524013582
+Force testing RMSE is 0.16812361358410105
+
+Fitting to subsampled  1500 configurations, repetition 36
+Fitting finished in 4.887906551361084 sec
+Energy subsampled RMSE is 0.008264459934689996
+Force subsampled RMSE is 0.1804822831273619
+Energy training RMSE is 0.00871444501035428
+Force training RMSE is 0.16777732882969323
+Energy testing RMSE is 0.008891705970223094
+Force testing RMSE is 0.16866398270219024
+
+Fitting to subsampled  1500 configurations, repetition 37
+Fitting finished in 5.413615465164185 sec
+Energy subsampled RMSE is 0.00850037673835227
+Force subsampled RMSE is 0.17914276438532606
+Energy training RMSE is 0.008792496362559883
+Force training RMSE is 0.16666975155386804
+Energy testing RMSE is 0.008948083324109289
+Force testing RMSE is 0.16738398075676078
+
+Fitting to subsampled  1500 configurations, repetition 38
+Fitting finished in 4.595680236816406 sec
+Energy subsampled RMSE is 0.008728702222248596
+Force subsampled RMSE is 0.17960304425398943
+Energy training RMSE is 0.008743620985349025
+Force training RMSE is 0.16749876567836924
+Energy testing RMSE is 0.00897194181404947
+Force testing RMSE is 0.16842405054092463
+
+Fitting to subsampled  1500 configurations, repetition 39
+Fitting finished in 4.614699840545654 sec
+Energy subsampled RMSE is 0.008529661686207514
+Force subsampled RMSE is 0.1781515868408636
+Energy training RMSE is 0.008669548114680601
+Force training RMSE is 0.1678484765976143
+Energy testing RMSE is 0.00872788859086657
+Force testing RMSE is 0.16845542534809857
+
+Fitting to subsampled  1500 configurations, repetition 40
+Fitting finished in 5.263662815093994 sec
+Energy subsampled RMSE is 0.008412644589062601
+Force subsampled RMSE is 0.1771312056935945
+Energy training RMSE is 0.008821772610094676
+Force training RMSE is 0.16711689223728216
+Energy testing RMSE is 0.008868538896503011
+Force testing RMSE is 0.16784045104411935
+
+Fitting to subsampled  1500 configurations, repetition 41
+Fitting finished in 4.8034539222717285 sec
+Energy subsampled RMSE is 0.008479737593271792
+Force subsampled RMSE is 0.1798689061965695
+Energy training RMSE is 0.00880300385581017
+Force training RMSE is 0.16712838036002592
+Energy testing RMSE is 0.008972051492273538
+Force testing RMSE is 0.16784520082573226
+
+Fitting to subsampled  1500 configurations, repetition 42
+Fitting finished in 4.87542462348938 sec
+Energy subsampled RMSE is 0.008914887549729812
+Force subsampled RMSE is 0.180919470793892
+Energy training RMSE is 0.00855257633885351
+Force training RMSE is 0.1686494151964624
+Energy testing RMSE is 0.008743816532376415
+Force testing RMSE is 0.16944653620698266
+
+Fitting to subsampled  1500 configurations, repetition 43
+Fitting finished in 5.400391101837158 sec
+Energy subsampled RMSE is 0.008806663557324174
+Force subsampled RMSE is 0.181254206146875
+Energy training RMSE is 0.00870802851678495
+Force training RMSE is 0.16818044085753908
+Energy testing RMSE is 0.008845389664460782
+Force testing RMSE is 0.1688427798629945
+
+Fitting to subsampled  1500 configurations, repetition 44
+Fitting finished in 4.75133752822876 sec
+Energy subsampled RMSE is 0.008531422158556335
+Force subsampled RMSE is 0.1802250629563411
+Energy training RMSE is 0.008924617272766312
+Force training RMSE is 0.1671537320841206
+Energy testing RMSE is 0.009037563241471622
+Force testing RMSE is 0.16793655113322106
+
+Fitting to subsampled  1500 configurations, repetition 45
+Fitting finished in 4.8378746509552 sec
+Energy subsampled RMSE is 0.008648621302582118
+Force subsampled RMSE is 0.1793822362858289
+Energy training RMSE is 0.008698889681791147
+Force training RMSE is 0.1671784331798651
+Energy testing RMSE is 0.008858391843042768
+Force testing RMSE is 0.16795057090298612
+
+Fitting to subsampled  1500 configurations, repetition 46
+Fitting finished in 4.922927618026733 sec
+Energy subsampled RMSE is 0.008561456071120006
+Force subsampled RMSE is 0.18020232668716196
+Energy training RMSE is 0.008685532848370094
+Force training RMSE is 0.16761366804446484
+Energy testing RMSE is 0.00879892208490196
+Force testing RMSE is 0.1683189895803027
+
+Fitting to subsampled  1500 configurations, repetition 47
+Fitting finished in 4.81097149848938 sec
+Energy subsampled RMSE is 0.008554165797311936
+Force subsampled RMSE is 0.17889994938213888
+Energy training RMSE is 0.008689980202233254
+Force training RMSE is 0.16767315860735058
+Energy testing RMSE is 0.008784938391705813
+Force testing RMSE is 0.1682545739003708
+
+Fitting to subsampled  1500 configurations, repetition 48
+Fitting finished in 4.781112909317017 sec
+Energy subsampled RMSE is 0.008595721033001123
+Force subsampled RMSE is 0.18113570816470506
+Energy training RMSE is 0.008782099913521416
+Force training RMSE is 0.1682009537927818
+Energy testing RMSE is 0.008913610622136985
+Force testing RMSE is 0.16893270063889784
+
+Fitting to subsampled  1500 configurations, repetition 49
+Fitting finished in 4.765188932418823 sec
+Energy subsampled RMSE is 0.00845840574523338
+Force subsampled RMSE is 0.17938831870287966
+Energy training RMSE is 0.00882796795606788
+Force training RMSE is 0.1668317620910266
+Energy testing RMSE is 0.00895908985606908
+Force testing RMSE is 0.16762016197555232

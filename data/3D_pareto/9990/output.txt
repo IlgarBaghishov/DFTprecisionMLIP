@@ -1,0 +1,540 @@
+
+
+Training on precision 1 data with energy weight of 5
+Energy subsampled RMSE with precision level used for training is 0.19741015909267265
+Force subsampled RMSE with precision level used for training is 0.4000427819436234
+Energy training RMSE with precision level used for training is 0.19741015909267265
+Force training RMSE with precision level used for training is 0.40004278194362347
+Energy testing RMSE with precision level used for training is 0.19836126178480265
+Force testing RMSE with precision level used for training is 0.40117547094915496
+Energy subsampled RMSE with highest (6th) precision level is 0.4554272544156558
+Force subsampled RMSE with highest (6th) precision level is 0.2499303706556385
+Energy training RMSE with highest (6th) precision level is 0.4554272544156558
+Force training RMSE with highest (6th) precision level is 0.24993037065563853
+Energy testing RMSE with highest (6th) precision level is 0.4552164268109854
+Force testing RMSE with highest (6th) precision level is 0.25045150322169774
+
+
+Training on precision 2 data with energy weight of 5
+Energy subsampled RMSE with precision level used for training is 0.043079999567558126
+Force subsampled RMSE with precision level used for training is 0.221872383849937
+Energy training RMSE with precision level used for training is 0.043079999567558126
+Force training RMSE with precision level used for training is 0.22187238384993704
+Energy testing RMSE with precision level used for training is 0.044607141067799796
+Force testing RMSE with precision level used for training is 0.22225773185803907
+Energy subsampled RMSE with highest (6th) precision level is 0.05268256091630349
+Force subsampled RMSE with highest (6th) precision level is 0.15934424299391775
+Energy training RMSE with highest (6th) precision level is 0.05268256091630349
+Force training RMSE with highest (6th) precision level is 0.15934424299391772
+Energy testing RMSE with highest (6th) precision level is 0.05256388542826584
+Force testing RMSE with highest (6th) precision level is 0.1599838646164642
+
+
+Training on precision 3 data with energy weight of 5
+Energy subsampled RMSE with precision level used for training is 0.023092796545930667
+Force subsampled RMSE with precision level used for training is 0.17332031548245444
+Energy training RMSE with precision level used for training is 0.02309279654593067
+Force training RMSE with precision level used for training is 0.17332031548245444
+Energy testing RMSE with precision level used for training is 0.024352856949243676
+Force testing RMSE with precision level used for training is 0.17404584023233452
+Energy subsampled RMSE with highest (6th) precision level is 0.019111249679840767
+Force subsampled RMSE with highest (6th) precision level is 0.15512426366590737
+Energy training RMSE with highest (6th) precision level is 0.019111249679840767
+Force training RMSE with highest (6th) precision level is 0.1551242636659074
+Energy testing RMSE with highest (6th) precision level is 0.020211352747052255
+Force testing RMSE with highest (6th) precision level is 0.15582667912732184
+
+
+Training on precision 4 data with energy weight of 5
+Energy subsampled RMSE with precision level used for training is 0.019775442823598142
+Force subsampled RMSE with precision level used for training is 0.161996047882881
+Energy training RMSE with precision level used for training is 0.019775442823598142
+Force training RMSE with precision level used for training is 0.16199604788288097
+Energy testing RMSE with precision level used for training is 0.021066583626001133
+Force testing RMSE with precision level used for training is 0.162687500547552
+Energy subsampled RMSE with highest (6th) precision level is 0.01933115832155551
+Force subsampled RMSE with highest (6th) precision level is 0.1543910022108883
+Energy training RMSE with highest (6th) precision level is 0.01933115832155551
+Force training RMSE with highest (6th) precision level is 0.15439100221088833
+Energy testing RMSE with highest (6th) precision level is 0.020564024611581827
+Force testing RMSE with highest (6th) precision level is 0.1551192979022458
+
+
+Training on precision 5 data with energy weight of 5
+Energy subsampled RMSE with precision level used for training is 0.019161713859781118
+Force subsampled RMSE with precision level used for training is 0.1545557758338628
+Energy training RMSE with precision level used for training is 0.019161713859781118
+Force training RMSE with precision level used for training is 0.1545557758338628
+Energy testing RMSE with precision level used for training is 0.020432877268714362
+Force testing RMSE with precision level used for training is 0.15527756672793977
+Energy subsampled RMSE with highest (6th) precision level is 0.019181405122650968
+Force subsampled RMSE with highest (6th) precision level is 0.15429070218898702
+Energy training RMSE with highest (6th) precision level is 0.019181405122650968
+Force training RMSE with highest (6th) precision level is 0.15429070218898702
+Energy testing RMSE with highest (6th) precision level is 0.020455099811488176
+Force testing RMSE with highest (6th) precision level is 0.15502958455250757
+
+
+Training on precision 6 data with energy weight of 5
+Energy subsampled RMSE with precision level used for training is 0.019170023953871324
+Force subsampled RMSE with precision level used for training is 0.15429046817295072
+Energy training RMSE with precision level used for training is 0.019170023953871324
+Force training RMSE with precision level used for training is 0.15429046817295078
+Energy testing RMSE with precision level used for training is 0.02043812900241081
+Force testing RMSE with precision level used for training is 0.15502902170067417
+Energy subsampled RMSE with highest (6th) precision level is 0.019170023953871324
+Force subsampled RMSE with highest (6th) precision level is 0.15429046817295072
+Energy training RMSE with highest (6th) precision level is 0.019170023953871324
+Force training RMSE with highest (6th) precision level is 0.15429046817295078
+Energy testing RMSE with highest (6th) precision level is 0.02043812900241081
+Force testing RMSE with highest (6th) precision level is 0.15502902170067417
+
+
+Training on precision 1 data with energy weight of 10
+Energy subsampled RMSE with precision level used for training is 0.19151325928708063
+Force subsampled RMSE with precision level used for training is 0.4009865150073368
+Energy training RMSE with precision level used for training is 0.19151325928708063
+Force training RMSE with precision level used for training is 0.4009865150073367
+Energy testing RMSE with precision level used for training is 0.19221211604687108
+Force testing RMSE with precision level used for training is 0.40220818576567297
+Energy subsampled RMSE with highest (6th) precision level is 0.45739416083775836
+Force subsampled RMSE with highest (6th) precision level is 0.25021773358764177
+Energy training RMSE with highest (6th) precision level is 0.45739416083775836
+Force training RMSE with highest (6th) precision level is 0.25021773358764177
+Energy testing RMSE with highest (6th) precision level is 0.4573151367590836
+Force testing RMSE with highest (6th) precision level is 0.25078379216125457
+
+
+Training on precision 2 data with energy weight of 10
+Energy subsampled RMSE with precision level used for training is 0.04109680529811944
+Force subsampled RMSE with precision level used for training is 0.22199154072217814
+Energy training RMSE with precision level used for training is 0.04109680529811944
+Force training RMSE with precision level used for training is 0.221991540722178
+Energy testing RMSE with precision level used for training is 0.04219211032085153
+Force testing RMSE with precision level used for training is 0.2224045225760828
+Energy subsampled RMSE with highest (6th) precision level is 0.05253980394998421
+Force subsampled RMSE with highest (6th) precision level is 0.15944075238625158
+Energy training RMSE with highest (6th) precision level is 0.05253980394998421
+Force training RMSE with highest (6th) precision level is 0.15944075238625163
+Energy testing RMSE with highest (6th) precision level is 0.052033913628785206
+Force testing RMSE with highest (6th) precision level is 0.16011007509070665
+
+
+Training on precision 3 data with energy weight of 10
+Energy subsampled RMSE with precision level used for training is 0.020702083855008983
+Force subsampled RMSE with precision level used for training is 0.17341960632901557
+Energy training RMSE with precision level used for training is 0.020702083855008983
+Force training RMSE with precision level used for training is 0.17341960632901557
+Energy testing RMSE with precision level used for training is 0.021199673211388593
+Force testing RMSE with precision level used for training is 0.17417633710046512
+Energy subsampled RMSE with highest (6th) precision level is 0.01685945968233686
+Force subsampled RMSE with highest (6th) precision level is 0.15525220730486525
+Energy training RMSE with highest (6th) precision level is 0.01685945968233686
+Force training RMSE with highest (6th) precision level is 0.15525220730486525
+Energy testing RMSE with highest (6th) precision level is 0.017031855194024344
+Force testing RMSE with highest (6th) precision level is 0.15598912783247934
+
+
+Training on precision 4 data with energy weight of 10
+Energy subsampled RMSE with precision level used for training is 0.017093117440081962
+Force subsampled RMSE with precision level used for training is 0.1620974563918827
+Energy training RMSE with precision level used for training is 0.017093117440081965
+Force training RMSE with precision level used for training is 0.16209745639188267
+Energy testing RMSE with precision level used for training is 0.017448582824435833
+Force testing RMSE with precision level used for training is 0.16282342588313467
+Energy subsampled RMSE with highest (6th) precision level is 0.016780257996452982
+Force subsampled RMSE with highest (6th) precision level is 0.15448243375155649
+Energy training RMSE with highest (6th) precision level is 0.016780257996452982
+Force training RMSE with highest (6th) precision level is 0.1544824337515566
+Energy testing RMSE with highest (6th) precision level is 0.017042000982912354
+Force testing RMSE with highest (6th) precision level is 0.15524635309589513
+
+
+Training on precision 5 data with energy weight of 10
+Energy subsampled RMSE with precision level used for training is 0.016432965642087072
+Force subsampled RMSE with precision level used for training is 0.15465993856257176
+Energy training RMSE with precision level used for training is 0.016432965642087075
+Force training RMSE with precision level used for training is 0.15465993856257176
+Energy testing RMSE with precision level used for training is 0.016747715076513073
+Force testing RMSE with precision level used for training is 0.1554167278871879
+Energy subsampled RMSE with highest (6th) precision level is 0.01644475582079656
+Force subsampled RMSE with highest (6th) precision level is 0.15439522421551777
+Energy training RMSE with highest (6th) precision level is 0.01644475582079656
+Force training RMSE with highest (6th) precision level is 0.1543952242155178
+Energy testing RMSE with highest (6th) precision level is 0.016762430984947837
+Force testing RMSE with highest (6th) precision level is 0.15516925517154195
+
+
+Training on precision 6 data with energy weight of 10
+Energy subsampled RMSE with precision level used for training is 0.016442305662945623
+Force subsampled RMSE with precision level used for training is 0.15439484452397556
+Energy training RMSE with precision level used for training is 0.016442305662945623
+Force training RMSE with precision level used for training is 0.1543948445239756
+Energy testing RMSE with precision level used for training is 0.016756869661685395
+Force testing RMSE with precision level used for training is 0.1551686005149901
+Energy subsampled RMSE with highest (6th) precision level is 0.016442305662945623
+Force subsampled RMSE with highest (6th) precision level is 0.15439484452397556
+Energy training RMSE with highest (6th) precision level is 0.016442305662945623
+Force training RMSE with highest (6th) precision level is 0.1543948445239756
+Energy testing RMSE with highest (6th) precision level is 0.016756869661685395
+Force testing RMSE with highest (6th) precision level is 0.1551686005149901
+
+
+Training on precision 1 data with energy weight of 12.25
+Energy subsampled RMSE with precision level used for training is 0.19025659149531385
+Force subsampled RMSE with precision level used for training is 0.40147991566371555
+Energy training RMSE with precision level used for training is 0.19025659149531385
+Force training RMSE with precision level used for training is 0.4014799156637155
+Energy testing RMSE with precision level used for training is 0.1909372748855687
+Force testing RMSE with precision level used for training is 0.4027382365176824
+Energy subsampled RMSE with highest (6th) precision level is 0.45784955091327706
+Force subsampled RMSE with highest (6th) precision level is 0.2505261613460808
+Energy training RMSE with highest (6th) precision level is 0.4578495509132771
+Force training RMSE with highest (6th) precision level is 0.2505261613460808
+Energy testing RMSE with highest (6th) precision level is 0.45783156796565627
+Force testing RMSE with highest (6th) precision level is 0.2511266913135843
+
+
+Training on precision 2 data with energy weight of 12.25
+Energy subsampled RMSE with precision level used for training is 0.040785351804076615
+Force subsampled RMSE with precision level used for training is 0.2220386601429104
+Energy training RMSE with precision level used for training is 0.04078535180407661
+Force training RMSE with precision level used for training is 0.2220386601429104
+Energy testing RMSE with precision level used for training is 0.04179199467740339
+Force testing RMSE with precision level used for training is 0.22246392816987126
+Energy subsampled RMSE with highest (6th) precision level is 0.05249645058457185
+Force subsampled RMSE with highest (6th) precision level is 0.1594886021690805
+Energy training RMSE with highest (6th) precision level is 0.05249645058457184
+Force training RMSE with highest (6th) precision level is 0.15948860216908048
+Energy testing RMSE with highest (6th) precision level is 0.051934561365192644
+Force testing RMSE with highest (6th) precision level is 0.16017337390762326
+
+
+Training on precision 3 data with energy weight of 12.25
+Energy subsampled RMSE with precision level used for training is 0.02021347730049043
+Force subsampled RMSE with precision level used for training is 0.17346699894642587
+Energy training RMSE with precision level used for training is 0.02021347730049043
+Force training RMSE with precision level used for training is 0.1734669989464259
+Energy testing RMSE with precision level used for training is 0.0205411517748187
+Force testing RMSE with precision level used for training is 0.17423694170965165
+Energy subsampled RMSE with highest (6th) precision level is 0.016451365190469885
+Force subsampled RMSE with highest (6th) precision level is 0.1553089190099593
+Energy training RMSE with highest (6th) precision level is 0.016451365190469885
+Force training RMSE with highest (6th) precision level is 0.15530891900995933
+Energy testing RMSE with highest (6th) precision level is 0.016426167486707194
+Force testing RMSE with highest (6th) precision level is 0.156061369981511
+
+
+Training on precision 4 data with energy weight of 12.25
+Energy subsampled RMSE with precision level used for training is 0.01648899853887186
+Force subsampled RMSE with precision level used for training is 0.16214896113047983
+Energy training RMSE with precision level used for training is 0.01648899853887186
+Force training RMSE with precision level used for training is 0.16214896113047989
+Energy testing RMSE with precision level used for training is 0.01663593188145647
+Force testing RMSE with precision level used for training is 0.16288950958286086
+Energy subsampled RMSE with highest (6th) precision level is 0.016188776684934916
+Force subsampled RMSE with highest (6th) precision level is 0.15452751008981544
+Energy training RMSE with highest (6th) precision level is 0.01618877668493492
+Force training RMSE with highest (6th) precision level is 0.15452751008981544
+Energy testing RMSE with highest (6th) precision level is 0.016235710516766377
+Force testing RMSE with highest (6th) precision level is 0.1553067526984108
+
+
+Training on precision 5 data with energy weight of 12.25
+Energy subsampled RMSE with precision level used for training is 0.015817018310707538
+Force subsampled RMSE with precision level used for training is 0.15471279916800687
+Energy training RMSE with precision level used for training is 0.015817018310707538
+Force training RMSE with precision level used for training is 0.15471279916800687
+Energy testing RMSE with precision level used for training is 0.015914978512529165
+Force testing RMSE with precision level used for training is 0.15548514387266463
+Energy subsampled RMSE with highest (6th) precision level is 0.015827401863305387
+Force subsampled RMSE with highest (6th) precision level is 0.1544483186752907
+Energy training RMSE with highest (6th) precision level is 0.015827401863305387
+Force training RMSE with highest (6th) precision level is 0.1544483186752907
+Energy testing RMSE with highest (6th) precision level is 0.015929045367385028
+Force testing RMSE with highest (6th) precision level is 0.15523781658582922
+
+
+Training on precision 6 data with energy weight of 12.25
+Energy subsampled RMSE with precision level used for training is 0.01582570343510023
+Force subsampled RMSE with precision level used for training is 0.15444788298156578
+Energy training RMSE with precision level used for training is 0.01582570343510023
+Force training RMSE with precision level used for training is 0.1544478829815658
+Energy testing RMSE with precision level used for training is 0.015924922227983352
+Force testing RMSE with precision level used for training is 0.1552371201077065
+Energy subsampled RMSE with highest (6th) precision level is 0.01582570343510023
+Force subsampled RMSE with highest (6th) precision level is 0.15444788298156578
+Energy training RMSE with highest (6th) precision level is 0.01582570343510023
+Force training RMSE with highest (6th) precision level is 0.1544478829815658
+Energy testing RMSE with highest (6th) precision level is 0.015924922227983352
+Force testing RMSE with highest (6th) precision level is 0.1552371201077065
+
+
+Training on precision 1 data with energy weight of 50
+Energy subsampled RMSE with precision level used for training is 0.17074039325203352
+Force subsampled RMSE with precision level used for training is 0.4603160451948839
+Energy training RMSE with precision level used for training is 0.17074039325203352
+Force training RMSE with precision level used for training is 0.46031604519488395
+Energy testing RMSE with precision level used for training is 0.17153395309716915
+Force testing RMSE with precision level used for training is 0.4619228522627301
+Energy subsampled RMSE with highest (6th) precision level is 0.4607212044328138
+Force subsampled RMSE with highest (6th) precision level is 0.33257700987143624
+Energy training RMSE with highest (6th) precision level is 0.4607212044328138
+Force training RMSE with highest (6th) precision level is 0.33257700987143646
+Energy testing RMSE with highest (6th) precision level is 0.4611201141432437
+Force testing RMSE with highest (6th) precision level is 0.3336895696099127
+
+
+Training on precision 2 data with energy weight of 50
+Energy subsampled RMSE with precision level used for training is 0.03793403684473742
+Force subsampled RMSE with precision level used for training is 0.2253997102364766
+Energy training RMSE with precision level used for training is 0.03793403684473742
+Force training RMSE with precision level used for training is 0.22539971023647662
+Energy testing RMSE with precision level used for training is 0.03891619706376276
+Force testing RMSE with precision level used for training is 0.2260099785049896
+Energy subsampled RMSE with highest (6th) precision level is 0.052136496530102654
+Force subsampled RMSE with highest (6th) precision level is 0.1639792753973517
+Energy training RMSE with highest (6th) precision level is 0.052136496530102654
+Force training RMSE with highest (6th) precision level is 0.1639792753973517
+Energy testing RMSE with highest (6th) precision level is 0.051656938404145966
+Force testing RMSE with highest (6th) precision level is 0.1649010316726774
+
+
+Training on precision 3 data with energy weight of 50
+Energy subsampled RMSE with precision level used for training is 0.01652785554348124
+Force subsampled RMSE with precision level used for training is 0.17565211799540206
+Energy training RMSE with precision level used for training is 0.01652785554348124
+Force training RMSE with precision level used for training is 0.1756521179954021
+Energy testing RMSE with precision level used for training is 0.016592755300319166
+Force testing RMSE with precision level used for training is 0.17657436185490555
+Energy subsampled RMSE with highest (6th) precision level is 0.012996329217014234
+Force subsampled RMSE with highest (6th) precision level is 0.1577440079133299
+Energy training RMSE with highest (6th) precision level is 0.012996329217014236
+Force training RMSE with highest (6th) precision level is 0.15774400791332993
+Energy testing RMSE with highest (6th) precision level is 0.012850562083082592
+Force testing RMSE with highest (6th) precision level is 0.1586952147357472
+
+
+Training on precision 4 data with energy weight of 50
+Energy subsampled RMSE with precision level used for training is 0.011840674527007709
+Force subsampled RMSE with precision level used for training is 0.1643062543538257
+Energy training RMSE with precision level used for training is 0.011840674527007709
+Force training RMSE with precision level used for training is 0.16430625435382576
+Energy testing RMSE with precision level used for training is 0.011711594733060486
+Force testing RMSE with precision level used for training is 0.16519016405412498
+Energy subsampled RMSE with highest (6th) precision level is 0.011361178966791856
+Force subsampled RMSE with highest (6th) precision level is 0.156642343432149
+Energy training RMSE with highest (6th) precision level is 0.011361178966791858
+Force training RMSE with highest (6th) precision level is 0.15664234343214894
+Energy testing RMSE with highest (6th) precision level is 0.011117624340254853
+Force testing RMSE with highest (6th) precision level is 0.15758621066747286
+
+
+Training on precision 5 data with energy weight of 50
+Energy subsampled RMSE with precision level used for training is 0.010987046214687518
+Force subsampled RMSE with precision level used for training is 0.1569370425903745
+Energy training RMSE with precision level used for training is 0.010987046214687518
+Force training RMSE with precision level used for training is 0.15693704259037444
+Energy testing RMSE with precision level used for training is 0.010783575701848394
+Force testing RMSE with precision level used for training is 0.15788871069608748
+Energy subsampled RMSE with highest (6th) precision level is 0.010986916063254266
+Force subsampled RMSE with highest (6th) precision level is 0.15668089273515076
+Energy training RMSE with highest (6th) precision level is 0.010986916063254266
+Force training RMSE with highest (6th) precision level is 0.15668089273515068
+Energy testing RMSE with highest (6th) precision level is 0.010794496393415726
+Force testing RMSE with highest (6th) precision level is 0.1576455472903609
+
+
+Training on precision 6 data with energy weight of 50
+Energy subsampled RMSE with precision level used for training is 0.010982962851257161
+Force subsampled RMSE with precision level used for training is 0.15668222036884122
+Energy training RMSE with precision level used for training is 0.010982962851257161
+Force training RMSE with precision level used for training is 0.1566822203688412
+Energy testing RMSE with precision level used for training is 0.01078840724527025
+Force testing RMSE with precision level used for training is 0.15764611282517282
+Energy subsampled RMSE with highest (6th) precision level is 0.010982962851257161
+Force subsampled RMSE with highest (6th) precision level is 0.15668222036884122
+Energy training RMSE with highest (6th) precision level is 0.010982962851257161
+Force training RMSE with highest (6th) precision level is 0.1566822203688412
+Energy testing RMSE with highest (6th) precision level is 0.01078840724527025
+Force testing RMSE with highest (6th) precision level is 0.15764611282517282
+
+
+Training on precision 1 data with energy weight of 150
+Energy subsampled RMSE with precision level used for training is 0.13958515251694328
+Force subsampled RMSE with precision level used for training is 0.8813297482473552
+Energy training RMSE with precision level used for training is 0.13958515251694326
+Force training RMSE with precision level used for training is 0.8813297482473554
+Energy testing RMSE with precision level used for training is 0.14149613905148342
+Force testing RMSE with precision level used for training is 0.883576713096882
+Energy subsampled RMSE with highest (6th) precision level is 0.4689471486921004
+Force subsampled RMSE with highest (6th) precision level is 0.8207749475884842
+Energy training RMSE with highest (6th) precision level is 0.4689471486921004
+Force training RMSE with highest (6th) precision level is 0.8207749475884841
+Energy testing RMSE with highest (6th) precision level is 0.4688634406357276
+Force testing RMSE with highest (6th) precision level is 0.8226745919707857
+
+
+Training on precision 2 data with energy weight of 150
+Energy subsampled RMSE with precision level used for training is 0.03439818526343922
+Force subsampled RMSE with precision level used for training is 0.2561942190393624
+Energy training RMSE with precision level used for training is 0.03439818526343922
+Force training RMSE with precision level used for training is 0.2561942190393625
+Energy testing RMSE with precision level used for training is 0.03566471870079707
+Force testing RMSE with precision level used for training is 0.2575468340876499
+Energy subsampled RMSE with highest (6th) precision level is 0.053445660263680396
+Force subsampled RMSE with highest (6th) precision level is 0.2040431388516133
+Energy training RMSE with highest (6th) precision level is 0.053445660263680396
+Force training RMSE with highest (6th) precision level is 0.2040431388516132
+Energy testing RMSE with highest (6th) precision level is 0.05308661105493177
+Force testing RMSE with highest (6th) precision level is 0.20584762786236457
+
+
+Training on precision 3 data with energy weight of 150
+Energy subsampled RMSE with precision level used for training is 0.014064258064216132
+Force subsampled RMSE with precision level used for training is 0.18684325350120082
+Energy training RMSE with precision level used for training is 0.01406425806421613
+Force training RMSE with precision level used for training is 0.18684325350120085
+Energy testing RMSE with precision level used for training is 0.014318859417929108
+Force testing RMSE with precision level used for training is 0.1882383863427939
+Energy subsampled RMSE with highest (6th) precision level is 0.011962805957550199
+Force subsampled RMSE with highest (6th) precision level is 0.17028145059765962
+Energy training RMSE with highest (6th) precision level is 0.011962805957550199
+Force training RMSE with highest (6th) precision level is 0.1702814505976596
+Energy testing RMSE with highest (6th) precision level is 0.012175589934490272
+Force testing RMSE with highest (6th) precision level is 0.17178537221192672
+
+
+Training on precision 4 data with energy weight of 150
+Energy subsampled RMSE with precision level used for training is 0.009179560447070549
+Force subsampled RMSE with precision level used for training is 0.17275052094446622
+Energy training RMSE with precision level used for training is 0.009179560447070547
+Force training RMSE with precision level used for training is 0.1727505209444663
+Energy testing RMSE with precision level used for training is 0.009365367902947494
+Force testing RMSE with precision level used for training is 0.1740131094675056
+Energy subsampled RMSE with highest (6th) precision level is 0.008572342978995381
+Force subsampled RMSE with highest (6th) precision level is 0.1654046237696445
+Energy training RMSE with highest (6th) precision level is 0.00857234297899538
+Force training RMSE with highest (6th) precision level is 0.1654046237696445
+Energy testing RMSE with highest (6th) precision level is 0.008675966245181141
+Force testing RMSE with highest (6th) precision level is 0.1667650367153577
+
+
+Training on precision 5 data with energy weight of 150
+Energy subsampled RMSE with precision level used for training is 0.008154979656322567
+Force subsampled RMSE with precision level used for training is 0.16537831348480578
+Energy training RMSE with precision level used for training is 0.008154979656322569
+Force training RMSE with precision level used for training is 0.16537831348480572
+Energy testing RMSE with precision level used for training is 0.008304743696753722
+Force testing RMSE with precision level used for training is 0.1667459578226957
+Energy subsampled RMSE with highest (6th) precision level is 0.008149438580746248
+Force subsampled RMSE with highest (6th) precision level is 0.1651398397252923
+Energy training RMSE with highest (6th) precision level is 0.008149438580746248
+Force training RMSE with highest (6th) precision level is 0.16513983972529228
+Energy testing RMSE with highest (6th) precision level is 0.008306848389002825
+Force testing RMSE with highest (6th) precision level is 0.16651972115282154
+
+
+Training on precision 6 data with energy weight of 150
+Energy subsampled RMSE with precision level used for training is 0.008145529743415392
+Force subsampled RMSE with precision level used for training is 0.16514206629680164
+Energy training RMSE with precision level used for training is 0.008145529743415392
+Force training RMSE with precision level used for training is 0.1651420662968016
+Energy testing RMSE with precision level used for training is 0.008299007027149407
+Force testing RMSE with precision level used for training is 0.16652065335507218
+Energy subsampled RMSE with highest (6th) precision level is 0.008145529743415392
+Force subsampled RMSE with highest (6th) precision level is 0.16514206629680164
+Energy training RMSE with highest (6th) precision level is 0.008145529743415392
+Force training RMSE with highest (6th) precision level is 0.1651420662968016
+Energy testing RMSE with highest (6th) precision level is 0.008299007027149407
+Force testing RMSE with highest (6th) precision level is 0.16652065335507218
+
+
+Training on precision 1 data with energy weight of 300
+Energy subsampled RMSE with precision level used for training is 0.12583655358268447
+Force subsampled RMSE with precision level used for training is 1.3694524827333157
+Energy training RMSE with precision level used for training is 0.12583655358268447
+Force training RMSE with precision level used for training is 1.3694524827333154
+Energy testing RMSE with precision level used for training is 0.12922811453029412
+Force testing RMSE with precision level used for training is 1.3751415816986452
+Energy subsampled RMSE with highest (6th) precision level is 0.47548870138816723
+Force subsampled RMSE with highest (6th) precision level is 1.3318109835643828
+Energy training RMSE with highest (6th) precision level is 0.47548870138816723
+Force training RMSE with highest (6th) precision level is 1.3318109835643825
+Energy testing RMSE with highest (6th) precision level is 0.4744760331824625
+Force testing RMSE with highest (6th) precision level is 1.3372043003738427
+
+
+Training on precision 2 data with energy weight of 300
+Energy subsampled RMSE with precision level used for training is 0.03287803427459263
+Force subsampled RMSE with precision level used for training is 0.311195706468717
+Energy training RMSE with precision level used for training is 0.03287803427459263
+Force training RMSE with precision level used for training is 0.3111957064687171
+Energy testing RMSE with precision level used for training is 0.034515896735829096
+Force testing RMSE with precision level used for training is 0.3139142618368898
+Energy subsampled RMSE with highest (6th) precision level is 0.05469872547590083
+Force subsampled RMSE with highest (6th) precision level is 0.2700836570314275
+Energy training RMSE with highest (6th) precision level is 0.05469872547590083
+Force training RMSE with highest (6th) precision level is 0.27008365703142745
+Energy testing RMSE with highest (6th) precision level is 0.05435488235877942
+Force testing RMSE with highest (6th) precision level is 0.2733906494396304
+
+
+Training on precision 3 data with energy weight of 300
+Energy subsampled RMSE with precision level used for training is 0.013105503179250183
+Force subsampled RMSE with precision level used for training is 0.2071318684979779
+Energy training RMSE with precision level used for training is 0.013105503179250183
+Force training RMSE with precision level used for training is 0.20713186849797796
+Energy testing RMSE with precision level used for training is 0.013531976674546909
+Force testing RMSE with precision level used for training is 0.2092835295842837
+Energy subsampled RMSE with highest (6th) precision level is 0.012223891414157775
+Force subsampled RMSE with highest (6th) precision level is 0.19260757020958544
+Energy training RMSE with highest (6th) precision level is 0.012223891414157775
+Force training RMSE with highest (6th) precision level is 0.1926075702095854
+Energy testing RMSE with highest (6th) precision level is 0.012546569400154391
+Force testing RMSE with highest (6th) precision level is 0.19492136247956676
+
+
+Training on precision 4 data with energy weight of 300
+Energy subsampled RMSE with precision level used for training is 0.008338016086690372
+Force subsampled RMSE with precision level used for training is 0.18518057740873237
+Energy training RMSE with precision level used for training is 0.008338016086690372
+Force training RMSE with precision level used for training is 0.18518057740873242
+Energy testing RMSE with precision level used for training is 0.008731681783778486
+Force testing RMSE with precision level used for training is 0.18699584985482265
+Energy subsampled RMSE with highest (6th) precision level is 0.007824893700139059
+Force subsampled RMSE with highest (6th) precision level is 0.17840328757205157
+Energy training RMSE with highest (6th) precision level is 0.00782489370013906
+Force training RMSE with highest (6th) precision level is 0.17840328757205162
+Energy testing RMSE with highest (6th) precision level is 0.008134523177041728
+Force testing RMSE with highest (6th) precision level is 0.18033815738545925
+
+
+Training on precision 5 data with energy weight of 300
+Energy subsampled RMSE with precision level used for training is 0.007316035504659017
+Force subsampled RMSE with precision level used for training is 0.17674599804151175
+Energy training RMSE with precision level used for training is 0.007316035504659017
+Force training RMSE with precision level used for training is 0.17674599804151178
+Energy testing RMSE with precision level used for training is 0.007657420263328632
+Force testing RMSE with precision level used for training is 0.17860854150863273
+Energy subsampled RMSE with highest (6th) precision level is 0.007309812932963855
+Force subsampled RMSE with highest (6th) precision level is 0.17652547382029063
+Energy training RMSE with highest (6th) precision level is 0.007309812932963855
+Force training RMSE with highest (6th) precision level is 0.17652547382029066
+Energy testing RMSE with highest (6th) precision level is 0.0076561155192096265
+Force testing RMSE with highest (6th) precision level is 0.1784027543906714
+
+
+Training on precision 6 data with energy weight of 300
+Energy subsampled RMSE with precision level used for training is 0.007305488909968546
+Force subsampled RMSE with precision level used for training is 0.17652686631417017
+Energy training RMSE with precision level used for training is 0.007305488909968546
+Force training RMSE with precision level used for training is 0.1765268663141701
+Energy testing RMSE with precision level used for training is 0.007648842566446303
+Force testing RMSE with precision level used for training is 0.178406700631961
+Energy subsampled RMSE with highest (6th) precision level is 0.007305488909968546
+Force subsampled RMSE with highest (6th) precision level is 0.17652686631417017
+Energy training RMSE with highest (6th) precision level is 0.007305488909968546
+Force training RMSE with highest (6th) precision level is 0.1765268663141701
+Energy testing RMSE with highest (6th) precision level is 0.007648842566446303
+Force testing RMSE with highest (6th) precision level is 0.178406700631961
