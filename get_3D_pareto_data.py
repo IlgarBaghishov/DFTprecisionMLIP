@@ -4,15 +4,16 @@ import pandas as pd
 from helper_functions import load_files, train_test_split
 
 
-twojmax = 6
+twojmax = int(sys.argv[1])
 eweights = [5, 10, 12.25, 50, 150, 300]  # List of energy weight values
-n_repetitions = int(sys.argv[1])  # How many times to repeat subsampling and training to collect statistics
-subsample_size = int(sys.argv[2])  # Number of configurations to subsample according to leverage scores
+n_repetitions = int(sys.argv[2])  # How many times to repeat subsampling and training to collect statistics
+subsample_size = int(sys.argv[3])  # Number of configurations to subsample according to leverage scores
 
 file_name_structures = "../../Be_structures.h5"
 file_name_energies = "../../Be_prec_6.h5"
 df_structures, df_energies = load_files(file_name_structures, file_name_energies)
-hlfpnt1, hlfpnt2, energy_mask, force_mask, hlfpnt, ind_configs_index, configs_index = train_test_split(df_structures["ASEatoms"])
+train_idxs, test_idxs, energy_mask, force_mask, train_test_split_idx, config_idxs_shuffled, config_to_rows_map = \
+    train_test_split(df_structures["ASEatoms"])
 
 aw = np.load('../../numpy_matrices_for_fitting/aw_' + str(twojmax) + '.npy')
 bw_1 = np.load("../../numpy_matrices_for_fitting/bw_1.npy")
@@ -29,19 +30,19 @@ results = []
 for j in range(n_repetitions):
 
     slctd = np.random.choice(df.index, subsample_size, replace=False, p=probabilities)
-    hlfpnt1_sub = [item for slctd_ind in slctd for item in configs_index[ind_configs_index[slctd_ind]]]
+    train_idxs_sub = [item for slctd_ind in slctd for item in config_to_rows_map[config_idxs_shuffled[slctd_ind]]]
 
     for ew in eweights:
 
         aw[energy_mask] *= ew
-        u, s, vh = np.linalg.svd(aw[hlfpnt1_sub], full_matrices=False)
+        u, s, vh = np.linalg.svd(aw[train_idxs_sub], full_matrices=False)
         aw[energy_mask] /= ew
 
         for i, bw in enumerate(bw_list):
 
             print("\n\nTraining on precision", i+1, "data with energy weight of", ew)
             bw[energy_mask] *= ew
-            coeffs = vh.T @ (np.diag(np.reciprocal(s)) @ (u.T @ bw[hlfpnt1_sub]))
+            coeffs = vh.T @ (np.diag(np.reciprocal(s)) @ (u.T @ bw[train_idxs_sub]))
             bw[energy_mask] /= ew
 
             prediction = np.dot(aw,coeffs)
@@ -49,18 +50,18 @@ for j in range(n_repetitions):
             residual_high = prediction - bw_6
             results.append([
                 subsample_size, ew, twojmax, i+1,
-                np.sqrt(np.mean(np.square(residual_self[hlfpnt1_sub][energy_mask[hlfpnt1_sub]]))),
-                np.sqrt(np.mean(np.square(residual_self[hlfpnt1_sub][force_mask[hlfpnt1_sub]]))),
-                np.sqrt(np.mean(np.square(residual_self[hlfpnt1][energy_mask[hlfpnt1]]))),
-                np.sqrt(np.mean(np.square(residual_self[hlfpnt1][force_mask[hlfpnt1]]))),
-                np.sqrt(np.mean(np.square(residual_self[hlfpnt2][energy_mask[hlfpnt2]]))),
-                np.sqrt(np.mean(np.square(residual_self[hlfpnt2][force_mask[hlfpnt2]]))),
-                np.sqrt(np.mean(np.square(residual_high[hlfpnt1_sub][energy_mask[hlfpnt1_sub]]))),
-                np.sqrt(np.mean(np.square(residual_high[hlfpnt1_sub][force_mask[hlfpnt1_sub]]))),
-                np.sqrt(np.mean(np.square(residual_high[hlfpnt1][energy_mask[hlfpnt1]]))),
-                np.sqrt(np.mean(np.square(residual_high[hlfpnt1][force_mask[hlfpnt1]]))),
-                np.sqrt(np.mean(np.square(residual_high[hlfpnt2][energy_mask[hlfpnt2]]))),
-                np.sqrt(np.mean(np.square(residual_high[hlfpnt2][force_mask[hlfpnt2]])))
+                np.sqrt(np.mean(np.square(residual_self[train_idxs_sub][energy_mask[train_idxs_sub]]))),
+                np.sqrt(np.mean(np.square(residual_self[train_idxs_sub][force_mask[train_idxs_sub]]))),
+                np.sqrt(np.mean(np.square(residual_self[train_idxs][energy_mask[train_idxs]]))),
+                np.sqrt(np.mean(np.square(residual_self[train_idxs][force_mask[train_idxs]]))),
+                np.sqrt(np.mean(np.square(residual_self[test_idxs][energy_mask[test_idxs]]))),
+                np.sqrt(np.mean(np.square(residual_self[test_idxs][force_mask[test_idxs]]))),
+                np.sqrt(np.mean(np.square(residual_high[train_idxs_sub][energy_mask[train_idxs_sub]]))),
+                np.sqrt(np.mean(np.square(residual_high[train_idxs_sub][force_mask[train_idxs_sub]]))),
+                np.sqrt(np.mean(np.square(residual_high[train_idxs][energy_mask[train_idxs]]))),
+                np.sqrt(np.mean(np.square(residual_high[train_idxs][force_mask[train_idxs]]))),
+                np.sqrt(np.mean(np.square(residual_high[test_idxs][energy_mask[test_idxs]]))),
+                np.sqrt(np.mean(np.square(residual_high[test_idxs][force_mask[test_idxs]])))
             ])
             print("Energy subsampled RMSE with precision level used for training is", results[-1][-12])
             print("Force subsampled RMSE with precision level used for training is", results[-1][-11])

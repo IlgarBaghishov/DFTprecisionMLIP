@@ -6,4 +6,4 @@
 #SBATCH -N 1
 #SBATCH -t 48:00:00
 
-python -u ../../../get_sampling_performance_data.py 1500
+python -u ../../../get_sampling_performance_data.py 6 1500

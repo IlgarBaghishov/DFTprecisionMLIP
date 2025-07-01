@@ -6,4 +6,4 @@
 #SBATCH -N 1
 #SBATCH -t 48:00:00
 
-python -u ../../../get_3D_pareto_data.py 50 3000
+python -u ../../../get_3D_pareto_data.py 6 50 3000
