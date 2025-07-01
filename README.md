@@ -1,2 +1,92 @@
 # DFTprecisionMLIP
-Scripts for the paper titled "Application-specific Machine-Learned Interatomic Potentials: Exploring the Trade-off Between Precision and Computational Cost"
+
+Scripts and data for the paper titled "Application-specific Machine-Learned Interatomic Potentials: Exploring the Trade-off Between Precision and Computational Cost".
+
+This repository contains a set of Python scripts and Jupyter notebooks for generating, training, and analyzing machine-learned interatomic potentials (MLIPs). The workflow focuses on creating qSNAP potentials from DFT data and evaluating their performance under various conditions.
+
+## Dependencies
+
+To run the scripts and notebooks in this repository, you will need the following Python libraries:
+
+* `FitSNAP`
+* `mpi4py`
+* `numpy`
+* `pandas`
+* `matplotlib`
+* `scipy`
+
+For easy installation, you can create a `requirements.txt` file with the above list and run:
+`pip install -r requirements.txt`
+
+## Dataset
+
+* **`Be_dataset/`**: This directory contains the Beryllium (Be) dataset used for training and testing.
+    * **`Be_structures.h5`**: An HDF5 file containing the atomic configurations.
+    * **`Be_prec_i.h5`**: HDF5 files (`i` from 1 to 6) containing the corresponding energies, forces, and stresses calculated via DFT at 6 different precision levels. More details about the precision levels can be found in the paper.
+
+## How to Run the Scripts
+
+The experiments are designed to be run from specific subdirectories within the **`data/`** directory. Each subdirectory contains a **`run.sh`** script that executes the main Python scripts with the correct arguments.
+
+**General Workflow:**
+
+1.  Navigate to the relevant subdirectory inside `data/` (e.g., `cd data/2D_pareto/`).
+2.  Execute the shell script: `sh run.sh`.
+3.  The script will call the main Python script from the parent directory.
+4.  Output files (e.g., `.npy` matrices or `.csv` results) will be generated and saved within that same subdirectory.
+
+## Directory Structure and Script Correspondence
+
+The main scripts are located in the root directory. They are executed from the subdirectories within **`data/`**, which is also where their outputs are saved.
+
+* **`data/numpy_matrices_for_fitting/`**
+    * **Corresponding Script**: `get_matrices_for_fitting.py`
+    * **Purpose**: This directory is for generating the descriptor matrices needed for model fitting.
+    * **`run.sh` executes**: `get_matrices_for_fitting.py`.
+    * **Output**: Saves descriptor matrices and target vectors as **`.npy`** files within this directory.
+
+* **`data/leverage_scores/`**
+    * **Corresponding Script**: `get_leverage_scores_data.py`
+    * **Purpose**: This directory is for calculating the leverage scores from the previously generated descriptor matrices.
+    * **`run.sh` executes**: `get_leverage_scores_data.py`.
+    * **Input**: Reads the **`.npy`** matrices from `data/numpy_matrices_for_fitting/`.
+    * **Output**: Saves leverage score data as **`.npy`** files within this directory.
+
+* **`data/sampling_performance/`**
+    * **Corresponding Script**: `get_sampling_performance_data.py`
+    * **Purpose**: To generate performance data by training models on subsets of data selected via leverage, block leverage, and random sampling.
+    * **`run.sh` executes**: `get_sampling_performance_data.py`.
+    * **Input**: Reads leverage scores from `data/leverage_scores/`.
+    * **Output**: Saves the performance results in a **`results.csv`** file inside this directory. This data is visualized using the **`plot_sampling_performance.ipynb`** notebook to create Figure 6.
+
+* **`data/2D_pareto/`**
+    * **Corresponding Script**: `get_2D_pareto_data.py`
+    * **Purpose**: To generate data for the 2D Pareto front by fitting models with different energy/force weights.
+    * **`run.sh` executes**: `get_2D_pareto_data.py`.
+    * **Input**: Reads descriptor matrices from `data/numpy_matrices_for_fitting/`.
+    * **Output**: Saves the energy/force RMSE results in a **`results.csv`** file here. This data is used by **`plot_2D_pareto.ipynb`** to create Figures 4 and 5.
+
+* **`data/3D_pareto/`**
+    * **Corresponding Script**: `get_3D_pareto_data.py`
+    * **Purpose**: To perform a large-scale factorial experiment, varying subset size, weights, model complexity, and DFT precision.
+    * **`run.sh` executes**: `get_3D_pareto_data.py`.
+    * **Input**: Reads all necessary matrices and leverage scores from other `data` subdirectories.
+    * **Output**: Saves the comprehensive results in a **`results.csv`** file in this directory. The **`plot_3D_pareto.ipynb`** notebook uses this data for the Pareto analysis in Figures 7 and 8.
+
+## Python Scripts and Notebooks
+
+* **`helper_functions.py`**: Contains various utility functions (e.g., for data loading, error calculation) that are imported and used by the main scripts and notebooks.
+
+* **`get_matrices_for_fitting.py`**: Generates descriptor matrices and corresponding energy/force vectors from the reference dataset. It takes `2Jmax` and precision level as arguments.
+
+* **`perform_one_fit.py`**: Handles the training of a single qSNAP model. It reads the matrices generated by `get_matrices_for_fitting.py`, sets the energy/force weights, and performs linear regression.
+
+* **`get_leverage_scores_data.py`**: Calculates leverage scores based on a descriptor matrix.
+
+* **`get_sampling_performance_data.py`**: Performs subsampling and fitting to compare random, leverage, and block leverage sampling methods.
+
+* **`get_2D_pareto_data.py`**: Runs a series of fits with different energy/force weights to generate data for 2D Pareto plots.
+
+* **`get_3D_pareto_data.py`**: Trains MLIPs in a full factorial design to generate data for the multi-objective Pareto analysis.
+
+* **Jupyter Notebooks (`plot_*.ipynb`)**: These are used for visualizing the data generated by the scripts and creating the figures presented in the paper.
