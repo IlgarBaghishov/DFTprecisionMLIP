@@ -1,3 +1,4 @@
+import os
 import sys
 import numpy as np
 import pandas as pd
@@ -7,18 +8,19 @@ from helper_functions import load_files, train_test_split
 twojmax = int(sys.argv[1])
 eweights = [0.01, 0.1, 1, 5, 10, 12.25, 20, 50, 100, 150, 200, 300, 500, 750, 1000, 1500, 2000]  # List of energy weight values
 
-file_name_structures = "../Be_structures.h5"
-file_name_energies = "../Be_prec_6.h5"
+data_dir = ".."
+file_name_structures = os.path.join(data_dir, "Be_structures.h5")
+file_name_energies = os.path.join(data_dir, "Be_prec_6.h5")
 df_structures, df_energies = load_files(file_name_structures, file_name_energies)
 train_idxs, test_idxs, energy_mask, force_mask = train_test_split(df_structures["ASEatoms"])[:4]
 
-aw = np.load('../numpy_matrices_for_fitting/aw_' + str(twojmax) + '.npy')
-bw_1 = np.load("../numpy_matrices_for_fitting/bw_1.npy")
-bw_2 = np.load("../numpy_matrices_for_fitting/bw_2.npy")
-bw_3 = np.load("../numpy_matrices_for_fitting/bw_3.npy")
-bw_4 = np.load("../numpy_matrices_for_fitting/bw_4.npy")
-bw_5 = np.load("../numpy_matrices_for_fitting/bw_5.npy")
-bw_6 = np.load("../numpy_matrices_for_fitting/bw_6.npy")
+aw = np.load(os.path.join(data_dir, "numpy_matrices_for_fitting", "aw_" + str(twojmax) + ".npy"))
+bw_1 = np.load(os.path.join(data_dir, "numpy_matrices_for_fitting", "bw_1.npy"))
+bw_2 = np.load(os.path.join(data_dir, "numpy_matrices_for_fitting", "bw_2.npy"))
+bw_3 = np.load(os.path.join(data_dir, "numpy_matrices_for_fitting", "bw_3.npy"))
+bw_4 = np.load(os.path.join(data_dir, "numpy_matrices_for_fitting", "bw_4.npy"))
+bw_5 = np.load(os.path.join(data_dir, "numpy_matrices_for_fitting", "bw_5.npy"))
+bw_6 = np.load(os.path.join(data_dir, "numpy_matrices_for_fitting", "bw_6.npy"))
 bw_list = [bw_1, bw_2, bw_3, bw_4, bw_5, bw_6]
 
 results = []
