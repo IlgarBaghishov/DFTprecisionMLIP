@@ -8,11 +8,13 @@ This repository contains a set of Python scripts and Jupyter notebooks for gener
 
 To run the scripts and notebooks in this repository, you will need the following Python libraries:
 
+* `ase`
 * `FitSNAP`
+* `h5py`
+* `matplotlib`
 * `mpi4py`
 * `numpy`
 * `pandas`
-* `matplotlib`
 * `scipy`
 
 ## Dataset
