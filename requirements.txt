@@ -1,4 +1,6 @@
+ase
 fitsnap3
+h5py
 mpi4py
 numpy
 pandas
