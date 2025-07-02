@@ -2,9 +2,11 @@ channels:
 - conda-forge
 dependencies:
 - python
-- pandas
-- numpy
-- mpi4py
+- ase
 - fitsnap3
-- scipy
+- h5py
 - matplotlib
+- mpi4py
+- numpy
+- pandas
+- scipy
