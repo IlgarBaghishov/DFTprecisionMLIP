@@ -7,3 +7,4 @@ dependencies:
 - mpi4py
 - fitsnap3
 - scipy
+- matplotlib
