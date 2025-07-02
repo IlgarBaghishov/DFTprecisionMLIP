@@ -1,4 +1,4 @@
-import time, sys
+import os, time, sys
 import numpy as np
 import pandas as pd
 from helper_functions import load_files, train_test_split
@@ -7,13 +7,14 @@ from helper_functions import load_files, train_test_split
 twojmax = int(sys.argv[1])
 eweight = 150
 
-file_name_structures = "../Be_structures.h5"
-file_name_energies = "../Be_prec_6.h5"
+data_dir = ".."
+file_name_structures = os.path.join(data_dir, "Be_structures.h5")
+file_name_energies = os.path.join(data_dir, "Be_prec_6.h5")
 df_structures, df_energies = load_files(file_name_structures, file_name_energies)
 train_idxs, test_idxs, energy_mask, force_mask, train_test_split_idx, config_idxs_shuffled = \
     train_test_split(df_structures["ASEatoms"])[:6]
 
-aw_train = np.load("../numpy_matrices_for_fitting/aw_" + str(twojmax) + ".npy")[train_idxs]
+aw_train = np.load(os.path.join(data_dir, "numpy_matrices_for_fitting", "aw_" + str(twojmax) + ".npy"))[train_idxs]
 
 start_time = time.time()
 aw_train[energy_mask[train_idxs]] *= eweight
