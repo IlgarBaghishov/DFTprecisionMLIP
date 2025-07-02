@@ -15,13 +15,10 @@ df_structures, df_energies = load_files(file_name_structures, file_name_energies
 train_idxs, test_idxs, energy_mask, force_mask = train_test_split(df_structures["ASEatoms"])[:4]
 
 aw = np.load(os.path.join(data_dir, "numpy_matrices_for_fitting", "aw_" + str(twojmax) + ".npy"))
-bw_1 = np.load(os.path.join(data_dir, "numpy_matrices_for_fitting", "bw_1.npy"))
-bw_2 = np.load(os.path.join(data_dir, "numpy_matrices_for_fitting", "bw_2.npy"))
-bw_3 = np.load(os.path.join(data_dir, "numpy_matrices_for_fitting", "bw_3.npy"))
-bw_4 = np.load(os.path.join(data_dir, "numpy_matrices_for_fitting", "bw_4.npy"))
-bw_5 = np.load(os.path.join(data_dir, "numpy_matrices_for_fitting", "bw_5.npy"))
-bw_6 = np.load(os.path.join(data_dir, "numpy_matrices_for_fitting", "bw_6.npy"))
-bw_list = [bw_1, bw_2, bw_3, bw_4, bw_5, bw_6]
+bw_list = [
+    np.load(os.path.join(data_dir, "numpy_matrices_for_fitting", f))
+    for f in ["bw_1.npy", "bw_2.npy", "bw_3.npy", "bw_4.npy", "bw_5.npy", "bw_6.npy"]
+]
 
 results = []
 for ew in eweights:
@@ -39,7 +36,7 @@ for ew in eweights:
 
         prediction = np.dot(aw,coeffs)
         residual_self = prediction - bw
-        residual_high = prediction - bw_6
+        residual_high = prediction - bw_list[-1]
         results.append([
             ew, twojmax, i+1,
             np.sqrt(np.mean(np.square(residual_self[train_idxs][energy_mask[train_idxs]]))),
