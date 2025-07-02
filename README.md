@@ -1,5 +1,7 @@
 # DFTprecisionMLIP
 
+[![arXiv](https://img.shields.io/badge/arXiv-2506.05646-b31b1b.svg)](https://arxiv.org/abs/2506.05646)
+
 Scripts and data for the paper titled "Application-specific Machine-Learned Interatomic Potentials: Exploring the Trade-off Between Precision and Computational Cost".
 
 This repository contains a set of Python scripts and Jupyter notebooks for generating, training, and analyzing machine-learned interatomic potentials (MLIPs). The workflow focuses on creating qSNAP potentials from DFT data and evaluating their performance under various conditions.
