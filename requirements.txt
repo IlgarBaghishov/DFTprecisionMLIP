@@ -1,0 +1,6 @@
+fitsnap3
+mpi4py
+numpy
+pandas
+matplotlib
+scipy
