@@ -1,0 +1,9 @@
+channels:
+- conda-forge
+dependencies:
+- python
+- pandas
+- numpy
+- mpi4py
+- fitsnap3
+- scipy
