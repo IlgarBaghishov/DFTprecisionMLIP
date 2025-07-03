@@ -9,19 +9,36 @@ twojmax = int(sys.argv[1])
 precision_to_train_on = 6
 precision_to_calc_errors_on = 6
 eweight = 150
-n_repetitions = 50  # How many times to repeat subsampling and training to collect statistics
+n_repetitions = (
+    50  # How many times to repeat subsampling and training to collect statistics
+)
 subsample_size = int(sys.argv[2])  # Number of configurations to subsample
 
 data_dir = "../.."
 file_name_structures = os.path.join(data_dir, "Be_structures.h5")
 file_name_energies = os.path.join(data_dir, "Be_prec_" + str(precision_to_train_on) + ".h5")
 df_structures, df_energies = load_files(file_name_structures, file_name_energies)
-train_idxs, test_idxs, energy_mask, force_mask, train_test_split_idx, config_idxs_shuffled, config_to_rows_map = \
-    train_test_split(df_structures["ASEatoms"])
+(
+    train_idxs,
+    test_idxs,
+    energy_mask,
+    force_mask,
+    train_test_split_idx,
+    config_idxs_shuffled,
+    config_to_rows_map,
+) = train_test_split(df_structures["ASEatoms"])
 
-aw = np.load(os.path.join(data_dir, "numpy_matrices_for_fitting", 'aw_' + str(twojmax) + '.npy'))
-bw_train = np.load(os.path.join(data_dir, "numpy_matrices_for_fitting", 'bw_' + str(precision_to_train_on) + '.npy'))
-bw_errors = np.load(os.path.join(data_dir, "numpy_matrices_for_fitting", 'bw_' + str(precision_to_calc_errors_on) + '.npy'))
+aw = np.load(os.path.join(data_dir, "numpy_matrices_for_fitting", "aw_" + str(twojmax) + ".npy"))
+bw_train = np.load(os.path.join(
+    data_dir,
+    "numpy_matrices_for_fitting",
+    "bw_" + str(precision_to_train_on) + ".npy"
+))
+bw_errors = np.load(os.path.join(
+    data_dir,
+    "numpy_matrices_for_fitting",
+    "bw_" + str(precision_to_calc_errors_on) + ".npy"
+))
 aw[energy_mask] *= eweight
 bw_train[energy_mask] *= eweight
 bw_errors[energy_mask] *= eweight
@@ -29,7 +46,7 @@ bw_errors[energy_mask] *= eweight
 df = pd.read_csv(os.path.join(data_dir, "leverage_scores_dataframe", "df_leverage.csv"), index_col=0)
 lev_probabilities = df["lev"].values / df["lev"].sum()
 block_lev_probabilities = df["block_lev"].values / df["block_lev"].sum()
-method = ['Random', 'Leverage', 'Block Leverage']
+method = ["Random", "Leverage", "Block Leverage"]
 probabilities = [None, lev_probabilities, block_lev_probabilities]
 results = []
 
@@ -44,23 +61,53 @@ for i in range(3):
 
     for j in range(n_repetitions):
 
-        slctd = np.random.choice(df.index, subsample_size, replace=False, p=probabilities[i])
-        train_idxs_sub = [item for slctd_ind in slctd for item in config_to_rows_map[config_idxs_shuffled[slctd_ind]]]
+        slctd = np.random.choice(
+            df.index, subsample_size, replace=False, p=probabilities[i]
+        )
+        train_idxs_sub = [
+            item
+            for slctd_ind in slctd
+            for item in config_to_rows_map[config_idxs_shuffled[slctd_ind]]
+        ]
 
-        print("\nFitting to subsampled ", subsample_size, "configurations, repetition", j)
+        print(
+            "\nFitting to subsampled ", subsample_size, "configurations, repetition", j
+        )
         start_time = time.time()
         coeffs, *_ = lstsq(aw[train_idxs_sub], bw_train[train_idxs_sub], 1.0e-13)
-        print("Fitting finished in", time.time()-start_time, "sec")
-        residual = np.dot(aw,coeffs) - bw_errors
-        results.append([
-            subsample_size, eweight, twojmax, precision_to_train_on, precision_to_calc_errors_on, method[i],
-            np.sqrt(np.mean(np.square(residual[train_idxs_sub][energy_mask[train_idxs_sub]])))/eweight,
-            np.sqrt(np.mean(np.square(residual[train_idxs_sub][force_mask[train_idxs_sub]]))),
-            np.sqrt(np.mean(np.square(residual[train_idxs][energy_mask[train_idxs]])))/eweight,
-            np.sqrt(np.mean(np.square(residual[train_idxs][force_mask[train_idxs]]))),
-            np.sqrt(np.mean(np.square(residual[test_idxs][energy_mask[test_idxs]])))/eweight,
-            np.sqrt(np.mean(np.square(residual[test_idxs][force_mask[test_idxs]])))
-        ])
+        print("Fitting finished in", time.time() - start_time, "sec")
+        residual = np.dot(aw, coeffs) - bw_errors
+        results.append(
+            [
+                subsample_size,
+                eweight,
+                twojmax,
+                precision_to_train_on,
+                precision_to_calc_errors_on,
+                method[i],
+                np.sqrt(
+                    np.mean(
+                        np.square(residual[train_idxs_sub][energy_mask[train_idxs_sub]])
+                    )
+                )
+                / eweight,
+                np.sqrt(
+                    np.mean(
+                        np.square(residual[train_idxs_sub][force_mask[train_idxs_sub]])
+                    )
+                ),
+                np.sqrt(
+                    np.mean(np.square(residual[train_idxs][energy_mask[train_idxs]]))
+                )
+                / eweight,
+                np.sqrt(
+                    np.mean(np.square(residual[train_idxs][force_mask[train_idxs]]))
+                ),
+                np.sqrt(np.mean(np.square(residual[test_idxs][energy_mask[test_idxs]])))
+                / eweight,
+                np.sqrt(np.mean(np.square(residual[test_idxs][force_mask[test_idxs]]))),
+            ]
+        )
         print("Energy subsampled RMSE is", results[-1][-6])
         print("Force subsampled RMSE is", results[-1][-5])
         print("Energy training RMSE is", results[-1][-4])
@@ -68,9 +115,21 @@ for i in range(3):
         print("Energy testing RMSE is", results[-1][-2])
         print("Force testing RMSE is", results[-1][-1])
 
-df_results = pd.DataFrame(results, columns=[
-    'Subsample size', 'Energy Weight', '2Jmax', 'Train Precision', 'Error Precision', 'Sampling Method',
-    'Subsampled Energy RMSE', 'Subsampled Force RMSE',
-    'Training Energy RMSE', 'Training Force RMSE',
-    'Testing Energy RMSE', 'Testing Force RMSE'])
+df_results = pd.DataFrame(
+    results,
+    columns=[
+        "Subsample size",
+        "Energy Weight",
+        "2Jmax",
+        "Train Precision",
+        "Error Precision",
+        "Sampling Method",
+        "Subsampled Energy RMSE",
+        "Subsampled Force RMSE",
+        "Training Energy RMSE",
+        "Training Force RMSE",
+        "Testing Energy RMSE",
+        "Testing Force RMSE",
+    ],
+)
 df_results.to_csv("results.csv")
