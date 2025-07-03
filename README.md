@@ -8,14 +8,27 @@ This repository contains a set of Python scripts and Jupyter notebooks for gener
 
 To run the scripts and notebooks in this repository, you will need the following Python libraries:
 
-* `ase`
-* `FitSNAP`
-* `h5py`
-* `matplotlib`
+* `ase==3.24.0`
+* `fitsnap3==3.1.0`
+* `jupyter==1.0.0`
+* `lammps==2023.08.02`
+* `matplotlib==3.10.1`
 * `mpi4py`
-* `numpy`
-* `pandas`
-* `scipy`
+* `nbformat==5.9.2`
+* `numpy==1.25.0`
+* `openmpi`
+* `pandas==2.0.2`
+* `pytables==3.10.1`
+* `scipy==1.11.0`
+* `setuptools==75.8.2`
+
+The recommended way to set up the environment is by using the provided **`environment.yml`** file with Conda:
+
+```bash
+conda env create -f environment.yml
+```
+
+This ensures that all dependencies, including the parallel version of LAMMPS, are installed correctly. For advanced use cases or alternative installation methods (e.g., with ACE descriptor support), please refer to the official [FitSNAP installation guide](https://fitsnap.github.io/Installation.html).
 
 ## Dataset
 
