@@ -1,4 +1,4 @@
-import time, sys
+import os, time, sys
 import numpy as np
 from scipy.linalg import lstsq
 import pandas as pd
@@ -14,8 +14,9 @@ n_repetitions = (
 )
 subsample_size = int(sys.argv[2])  # Number of configurations to subsample
 
-file_name_structures = "../../Be_structures.h5"
-file_name_energies = "../../Be_prec_" + str(precision_to_train_on) + ".h5"
+data_dir = "../.."
+file_name_structures = os.path.join(data_dir, "Be_structures.h5")
+file_name_energies = os.path.join(data_dir, "Be_prec_" + str(precision_to_train_on) + ".h5")
 df_structures, df_energies = load_files(file_name_structures, file_name_energies)
 (
     train_idxs,
@@ -27,18 +28,22 @@ df_structures, df_energies = load_files(file_name_structures, file_name_energies
     config_to_rows_map,
 ) = train_test_split(df_structures["ASEatoms"])
 
-aw = np.load("../../numpy_matrices_for_fitting/aw_" + str(twojmax) + ".npy")
-bw_train = np.load(
-    "../../numpy_matrices_for_fitting/bw_" + str(precision_to_train_on) + ".npy"
-)
-bw_errors = np.load(
-    "../../numpy_matrices_for_fitting/bw_" + str(precision_to_calc_errors_on) + ".npy"
-)
+aw = np.load(os.path.join(data_dir, "numpy_matrices_for_fitting", "aw_" + str(twojmax) + ".npy"))
+bw_train = np.load(os.path.join(
+    data_dir,
+    "numpy_matrices_for_fitting",
+    "bw_" + str(precision_to_train_on) + ".npy"
+))
+bw_errors = np.load(os.path.join(
+    data_dir,
+    "numpy_matrices_for_fitting",
+    "bw_" + str(precision_to_calc_errors_on) + ".npy"
+))
 aw[energy_mask] *= eweight
 bw_train[energy_mask] *= eweight
 bw_errors[energy_mask] *= eweight
 
-df = pd.read_csv("../../leverage_scores_dataframe/df_leverage.csv", index_col=0)
+df = pd.read_csv(os.path.join(data_dir, "leverage_scores_dataframe", "df_leverage.csv"), index_col=0)
 lev_probabilities = df["lev"].values / df["lev"].sum()
 block_lev_probabilities = df["block_lev"].values / df["block_lev"].sum()
 method = ["Random", "Leverage", "Block Leverage"]

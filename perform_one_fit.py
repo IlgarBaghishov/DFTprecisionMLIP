@@ -1,4 +1,4 @@
-import time, sys
+import os, time, sys
 import numpy as np
 from scipy.linalg import lstsq
 from helper_functions import load_files, train_test_split
@@ -9,16 +9,25 @@ precision_to_train_on = int(sys.argv[2])
 precision_to_calc_errors_on = int(sys.argv[3])
 eweight = int(sys.argv[4])
 
-file_name_structures = "data/Be_structures.h5"
-file_name_energies = "data/Be_prec_" + str(precision_to_train_on) + ".h5"
+data_dir = "data"
+file_name_structures = os.path.join(data_dir, "Be_structures.h5")
+file_name_energies = os.path.join(data_dir, "Be_prec_" + str(precision_to_train_on) + ".h5")
 df_structures, df_energies = load_files(file_name_structures, file_name_energies)
 train_idxs, test_idxs, energy_mask, force_mask = train_test_split(
     df_structures["ASEatoms"]
 )[:4]
 
-aw = np.load("data/aw_" + str(twojmax) + ".npy")
-bw_train = np.load("data/bw_" + str(precision_to_train_on) + ".npy")
-bw_errors = np.load("data/bw_" + str(precision_to_calc_errors_on) + ".npy")
+aw = np.load(os.path.join(data_dir, "aw_" + str(twojmax) + ".npy"))
+bw_train = np.load(os.path.join(
+    data_dir,
+    "numpy_matrices_for_fitting",
+    "bw_" + str(precision_to_train_on) + ".npy"
+))
+bw_errors = np.load(os.path.join(
+    data_dir,
+    "numpy_matrices_for_fitting",
+    "bw_" + str(precision_to_calc_errors_on) + ".npy"
+))
 
 start_time = time.time()
 aw[energy_mask] *= eweight

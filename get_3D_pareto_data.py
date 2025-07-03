@@ -1,3 +1,4 @@
+import os
 import sys
 import numpy as np
 import pandas as pd
@@ -13,8 +14,9 @@ subsample_size = int(
     sys.argv[3]
 )  # Number of configurations to subsample according to leverage scores
 
-file_name_structures = "../../Be_structures.h5"
-file_name_energies = "../../Be_prec_6.h5"
+data_dir = "../.."
+file_name_structures = os.path.join(data_dir, "Be_structures.h5")
+file_name_energies = os.path.join(data_dir, "Be_prec_6.h5")
 df_structures, df_energies = load_files(file_name_structures, file_name_energies)
 (
     train_idxs,
@@ -26,16 +28,13 @@ df_structures, df_energies = load_files(file_name_structures, file_name_energies
     config_to_rows_map,
 ) = train_test_split(df_structures["ASEatoms"])
 
-aw = np.load("../../numpy_matrices_for_fitting/aw_" + str(twojmax) + ".npy")
-bw_1 = np.load("../../numpy_matrices_for_fitting/bw_1.npy")
-bw_2 = np.load("../../numpy_matrices_for_fitting/bw_2.npy")
-bw_3 = np.load("../../numpy_matrices_for_fitting/bw_3.npy")
-bw_4 = np.load("../../numpy_matrices_for_fitting/bw_4.npy")
-bw_5 = np.load("../../numpy_matrices_for_fitting/bw_5.npy")
-bw_6 = np.load("../../numpy_matrices_for_fitting/bw_6.npy")
-bw_list = [bw_1, bw_2, bw_3, bw_4, bw_5, bw_6]
+aw = np.load(os.path.join(data_dir, "numpy_matrices_for_fitting", "aw_" + str(twojmax) + ".npy"))
+bw_list = [
+    np.load(os.path.join(data_dir, "numpy_matrices_for_fitting", f))
+    for f in ["bw_1.npy", "bw_2.npy", "bw_3.npy", "bw_4.npy", "bw_5.npy", "bw_6.npy"]
+]
 
-df = pd.read_csv("../../leverage_scores_dataframe/df_leverage.csv", index_col=0)
+df = pd.read_csv(os.path.join(data_dir, "leverage_scores_dataframe", "df_leverage.csv"), index_col=0)
 probabilities = df["lev"].values / df["lev"].sum()
 results = []
 for j in range(n_repetitions):
@@ -62,7 +61,7 @@ for j in range(n_repetitions):
 
             prediction = np.dot(aw, coeffs)
             residual_self = prediction - bw
-            residual_high = prediction - bw_6
+            residual_high = prediction - bw_list[-1
             results.append(
                 [
                     subsample_size,

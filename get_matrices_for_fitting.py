@@ -1,3 +1,4 @@
+import os
 import sys
 import numpy as np
 from mpi4py import MPI
@@ -129,8 +130,9 @@ settings = {
     "MEMORY": {"override": 0},
 }
 
-file_name_structures = "../Be_structures.h5"
-file_name_energies = "../Be_prec_" + str(precision) + ".h5"
+data_dir = ".."
+file_name_structures = os.path.join(data_dir, "Be_structures.h5")
+file_name_energies = os.path.join(data_dir, "Be_prec_" + str(precision) + ".h5")
 df_structures, df_energies = load_files(file_name_structures, file_name_energies)
 configs_num = df_structures["ASEatoms"].shape[0]
 ratio = configs_num // size
