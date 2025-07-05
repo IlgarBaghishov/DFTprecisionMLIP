@@ -17,7 +17,7 @@ train_idxs, test_idxs, energy_mask, force_mask = train_test_split(
     df_structures["ASEatoms"]
 )[:4]
 
-aw = np.load(os.path.join(data_dir, "aw_" + str(twojmax) + ".npy"))
+aw = np.load(os.path.join(data_dir, "numpy_matrices_for_fitting", "aw_" + str(twojmax) + ".npy"))
 bw_train = np.load(os.path.join(
     data_dir,
     "numpy_matrices_for_fitting",

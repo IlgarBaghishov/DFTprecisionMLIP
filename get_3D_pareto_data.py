@@ -61,7 +61,7 @@ for j in range(n_repetitions):
 
             prediction = np.dot(aw, coeffs)
             residual_self = prediction - bw
-            residual_high = prediction - bw_list[-1
+            residual_high = prediction - bw_list[-1]
             results.append(
                 [
                     subsample_size,
